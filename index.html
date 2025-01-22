@@ -6,6 +6,7 @@
   <title>MAAG</title>
   <link href="./tailwind.css" rel="stylesheet">
   <script src="navbar.js" defer></script>
+  <script src="menu.js" defer></script>
 </head >
 <body>
   <nav class="bg-white text-black px-6 md:px-64 py-6 flex justify-between items-center shadow-sm shadow-neutral-500 fixed top-0 left-0 w-full z-50">
@@ -23,7 +24,7 @@
     <ul id="menu" class="hidden md:flex space-x-6">
         <li><a href="#Main_page" class="hover:text-yellow-500 transition-colors font-bold text-xl">Inicio</a></li>
         <li><a href="#about" class="hover:text-yellow-500 transition-colors font-bold text-xl">Nosotros</a></li>
-        <li><a href="#services" class="hover:text-yellow-500 transition-colors font-bold text-xl">Servicios</a></li>
+        <li><a href="#viajes" class="hover:text-yellow-500 transition-colors font-bold text-xl">Viajes</a></li>
         <li><a href="#contact" class="hover:text-yellow-500 transition-colors font-bold text-xl">Contacto</a></li>
     </ul>
   </nav>
@@ -33,7 +34,7 @@
 
 
   
-<div class="bg-neutral-100 bg-no-repeat w-full min-h-screen pt-44">
+<div class="bg-neutral-100 w-full min-h-screen pt-44">
   <div id="title" class="text-left pt-8 px-64">
       <h1 class="text-yellow-500 font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl">
           EST<span class="text-black">ANCIA</span> DIGITAL<span class="text-black">DENTISTRY</span>
@@ -88,9 +89,203 @@
 
   </div>
 
-  <div id="viajes">
-
+  <div id="viajes" class="bg-[#f9f4ef] w-full min-h-screen">
+  <!-- Title -->
+  <div id="title" class="text-center pt-8 px-64">
+    <h1 class="text-[#f4a261] font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl">
+      Destinos Inolvidables
+    </h1>
   </div>
+
+  <div class="max-w-6xl mx-auto py-6 px-8 mt-16 bg-white rounded-lg shadow-xl">
+    <!-- Tab Navigation -->
+    <div class="flex space-x-6 border-b border-gray-300 pb-4">
+      <button class="tab active text-[#6c757d]  hover:text-[#63A4D3] px-6 py-3 text-lg ">
+        RD
+      </button>
+      <button class="tab text-[#6c757d] hover:text-[#63A4D3] px-6 py-3 text-lg">
+        PORTUGAL
+      </button>
+      <button class="tab text-[#6c757d] hover:text-[#63A4D3] px-6 py-3 text-lg">
+        CHILE
+      </button>
+      <button class="tab text-[#6c757d] hover:text-[#63A4D3] px-6 py-3 text-lg">
+        COLOMBIA
+      </button>
+      <button class="tab text-[#6c757d] hover:text-[#63A4D3] px-6 py-3 text-lg">
+        ESPAÑA
+      </button>
+      <button class="tab text-[#6c757d] hover:text-[#63A4D3] px-6 py-3 text-lg">
+        ECUADOR
+      </button>
+      <button class="tab text-[#6c757d] hover:text-[#63A4D3] px-6 py-3 text-lg">
+        MEXICO
+      </button>
+    </div>
+
+    <!-- Tab Content -->
+    <div class="mt-10">
+      <!-- República Dominicana Section -->
+      <div class="tab-content active">
+        <div class="flex items-center space-x-8 bg-[#f0f8ff] p-8 rounded-lg shadow-lg">
+          <img src="./img/rd.jpg" alt="RD" class="w-48 h-48 object-cover rounded-lg">
+          <div>
+            <h2 class="text-3xl font-extrabold text-[#264653] mb-4">
+              República Dominicana
+            </h2>
+            <div class="text-[#4f4f4f] text-lg leading-relaxed space-y-4">
+              <h1 class="text-[#2A9D8F] font-semibold text-xl">
+                ¡Gracias, República Dominicana!
+              </h1>
+              <p>
+                A la <span class="font-bold text-[#e76f51]">tierra de la alegría y el ritmo</span>, gracias por recibirme en una
+                conferencia que siempre llevaré en mi corazón.
+              </p>
+              <p>
+                Su <span class="font-bold text-[#e76f51]">energía, entusiasmo y amor</span> por la odontología digital fueron
+                <span class="italic">inspiradores</span>. Muy bellas playas y bella gente.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Portugal Section -->
+      <div class="tab-content hidden">
+        <div class="flex items-center space-x-8 bg-[#f0f8ff] p-8 rounded-lg shadow-lg">
+          <img src="./img/portugal.jpg" alt="Portugal" class="w-48 h-48 object-cover rounded-lg">
+          <div>
+            <h2 class="text-3xl font-extrabold text-[#264653] mb-4">Portugal</h2>
+            <div class="text-[#4f4f4f] text-lg leading-relaxed space-y-4">
+              <h1 class="text-[#2A9D8F] font-semibold text-xl">
+                ¡Obrigado de coração, Portugal!
+              </h1>
+              <p>
+                Gracias por darme la oportunidad de estar frente a una audiencia tan 
+                <span class="font-bold text-[#e76f51]">apasionada y cálida</span> en una conferencia que marcó mi camino.
+              </p>
+              <p>
+                Estoy inmensamente agradecido por cada conversación, 
+                <span class="font-bold text-[#e76f51]">cada sonrisa</span>, y por el privilegio de compartir juntos.
+              </p>
+              <p>
+                ¡Siempre llevaré conmigo el <span class="font-bold italic text-[#e76f51]">sabor de un pastel de nata</span> y la calidez de su gente!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+
+      <!-- Chile Section -->
+      <div class="tab-content hidden">
+        <div class="flex items-center space-x-8 bg-[#f0f8ff] p-8 rounded-lg shadow-lg">
+          <img src="./img/chile.jpg" alt="Chile" class="w-48 h-48 object-cover rounded-lg">
+          <div>
+            <h2 class="text-3xl font-extrabold text-[#264653] mb-4">Chile</h2>
+            <div class="text-[#4f4f4f] text-lg leading-relaxed space-y-4">
+              <h1 class="text-[#2A9D8F] font-semibold text-xl">¡Gracias, Chile!</h1>
+              <p>
+                A la <span class="font-bold text-[#e76f51]">tierra de los paisajes infinitos y la calidez de su gente</span>, gracias por darme
+                la oportunidad de compartir conocimientos con ustedes.
+              </p>
+              <p>
+                ¡Nunca olvidaré las <span class="italic text-[#e76f51]">conversaciones inspiradoras</span> con un buen vino!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Colombia Section -->
+      <div class="tab-content hidden">
+        <div class="flex items-center space-x-8 bg-[#f0f8ff] p-8 rounded-lg shadow-lg">
+          <img src="./img/colombia.png" alt="Colombia" class="w-48 h-48 object-cover rounded-lg">
+          <div>
+            <h2 class="text-3xl font-extrabold text-[#264653] mb-4">Colombia</h2>
+            <div class="text-[#4f4f4f] text-lg leading-relaxed space-y-4">
+              <h1 class="text-[#2A9D8F] font-semibold text-xl">¡Gracias, Colombia!</h1>
+              <p>
+                A la <span class="font-bold text-[#e76f51]">tierra del café más delicioso del mundo</span> y la tremenda bandeja paisa,
+                mil gracias por recibirme con los brazos abiertos.
+              </p>
+              <p>
+                Su <span class="italic font-bold text-[#e76f51]">calidez, alegría y pasión por aprender</span> me dejaron marcado.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- España Section -->
+      <div class="tab-content hidden">
+        <div class="flex items-center space-x-8 bg-[#f0f8ff] p-8 rounded-lg shadow-lg">
+          <img src="./img/espana.jpeg" alt="España" class="w-48 h-48 object-cover rounded-lg">
+          <div>
+            <h2 class="text-3xl font-extrabold text-[#264653] mb-4">España</h2>
+            <div class="text-[#4f4f4f] text-lg leading-relaxed space-y-4">
+              <h1 class="text-[#2A9D8F] font-semibold text-xl">¡Gracias, España!</h1>
+              <p>
+                Gracias por recibirme como en casa y compartir conmigo su 
+                <span class="font-bold text-[#e76f51]">pasión por la innovación en odontología</span>.
+              </p>
+              <p>
+                ¡Cada curso fue una <span class="italic font-bold text-[#e76f51]">experiencia inolvidable</span>, especialmente acompañado de unas tapas y una buena paella valenciana!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+
+      <!-- Ecuador Section -->
+      <div class="tab-content hidden">
+        <div class="flex items-center space-x-8 bg-[#f0f8ff] p-8 rounded-lg shadow-lg">
+          <img src="./img/ecuador.jpeg" alt="Ecuador" class="w-48 h-48 object-cover rounded-lg">
+          <div>
+            <h2 class="text-3xl font-extrabold text-[#264653] mb-4">Ecuador</h2>
+            <div class="text-[#4f4f4f] text-lg leading-relaxed space-y-4">
+              <h1 class="text-[#2A9D8F] font-semibold text-xl">¡Gracias, Ecuador!</h1>
+              <p>
+                Gracias mis <span class="font-bold text-[#e76f51]">ñaños</span> por ser parte de esta aventura. La
+                <span class="font-bold text-[#e76f51]">riqueza cultural</span> y el entusiasmo de su gente hacen que cada visita sea inolvidable.
+              </p>
+              <p>
+                ¡Nada como disfrutar de un <span class="italic font-bold text-[#e76f51]">buen ceviche ecuatoriano</span> o una empanada verde mientras compartimos conocimientos!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+
+      <!-- Mexico Section -->
+      <div class="tab-content hidden">
+        <div class="flex items-center space-x-8 bg-[#f0f8ff] p-8 rounded-lg shadow-lg">
+          <img src="./img/mexico.png" alt="México" class="w-48 h-48 object-cover rounded-lg">
+          <div>
+            <h2 class="text-3xl font-extrabold text-[#264653] mb-4">México</h2>
+            <div class="text-[#4f4f4f] text-lg leading-relaxed space-y-4">
+              <h1 class="text-[#2A9D8F] font-semibold text-xl">¡Gracias, México!</h1>
+              <p>
+                A mi <span class="font-bold text-[#e76f51]">tierra querida</span>, gracias por permitirme compartir lo mejor de la odontología digital.
+              </p>
+              <p>
+                Aquí fue donde todo comenzó, y llevar el conocimiento a cada rincón de este <span class="font-bold text-[#e76f51]">hermoso país</span> ha sido un honor.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+
+    </div>
+  </div>
+</div>
+
+  
 
   <div id="opiniones">
 
@@ -99,6 +294,7 @@
   <div id="hook">
 
   </div>
+
   <div class="fixed bottom-12 right-6">
     <a href="https://wa.me/1234567890" target="_blank" rel="noopener noreferrer"
        class="bg-green-500 hover:bg-white text-white hover:text-green-500 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 p-4 flex justify-center items-center w-16 h-16 relative group">
