@@ -101,11 +101,15 @@
   </div>
   <div class="fixed bottom-12 right-6">
     <a href="https://wa.me/1234567890" target="_blank" rel="noopener noreferrer"
-       class="bg-green-500 hover:bg-white text-white hover:text-green-500 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 p-4 flex justify-center items-center w-16 h-16">
-        <!-- Ícono de WhatsApp -->
-        <img src="./img/svgwp.svg" alt="WhatsApp" class="w-8 h-8">
+       class="bg-green-500 hover:bg-white text-white hover:text-green-500 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 p-4 flex justify-center items-center w-16 h-16 relative group">
+        <!-- Ícono por defecto -->
+        <img src="./img/svgwpwhite.svg" alt="WhatsApp" class="w-8 h-8 transition-opacity duration-300 opacity-100 group-hover:opacity-0">
+        <!-- Ícono al hacer hover -->
+        <img src="./img/svgwpgreen.svg" alt="WhatsApp Hover" class="w-8 h-8 transition-opacity duration-300 opacity-0 group-hover:opacity-100 absolute">
     </a>
   </div>
+
+
 
 
 
