@@ -9,7 +9,7 @@
   <script src="menu.js" defer></script>
 </head >
 <body>
-  <nav class="bg-white text-black px-6 md:px-64 py-6 flex justify-between items-center shadow-sm shadow-neutral-500 fixed top-0 left-0 w-full z-50">
+  <nav class="bg-white text-black px-6 md:px-96 py-6 flex justify-between items-center shadow-sm shadow-neutral-500 fixed top-0 left-0 w-full z-50">
     <!-- Logo -->
     <div class="text-xl font-bold">
         MAAG
@@ -22,20 +22,21 @@
 
     <!-- Enlaces de navegación -->
     <ul id="menu" class="hidden md:flex space-x-6">
-        <li><a href="#Main_page" class="hover:text-yellow-500 transition-colors text-xl">Inicio</a></li>
-        <li><a href="#about" class="hover:text-yellow-500 transition-colors text-xl">Nosotros</a></li>
+        <li><a href="#main" class="hover:text-yellow-500 transition-colors text-xl">Inicio</a></li>
+        <li><a href="#Nosotros" class="hover:text-yellow-500 transition-colors text-xl">Sobre mí</a></li>
         <li><a href="#viajes" class="hover:text-yellow-500 transition-colors text-xl">Viajes</a></li>
-        <li><a href="#contact" class="hover:text-yellow-500 transition-colors text-xl">Contacto</a></li>
+        <li><a href="#opiniones" class="hover:text-yellow-500 transition-colors text-xl">Opiniones</a></li>
+        <li><a href="#material" class="hover:text-yellow-500 transition-colors text-xl">Material</a></li>
     </ul>
   </nav>
 
   
-<div class="bg-neutral-100 w-full min-h-screen pt-44">
+<div id="main" class="bg-neutral-100 w-full min-h-screen pt-44">
   <div id="title" class="text-left pt-8 px-64">
       <h1 class="text-yellow-500 font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl">
-          ESTA<span class="text-black">NCIA</span> DIGITAL<span class="text-black">DENTISTRY</span>
+          ESTA<span class="text-black">NCIA</span><br> DIGITAL <span class="text-black">DENTISTRY</span>
       </h1>
-      <div class="bg-yellow-500 h-[6px] w-36 mt-4"></div>
+      <div class="bg-yellow-500 h-[6px] w-56 mt-4"></div>
   </div>
 
   <!-- Contenido en Grid -->
@@ -81,10 +82,10 @@
       <div class="max-w-7xl mx-auto px-6 lg:px-8 flex flex-col items-center text-left">
           <!-- Texto principal -->
           <div class="w-full">
-              <h2 class="text-4xl font-extrabold text-gray-800 mb-6">
+              <h2 class="text-4xl font-extrabold text-black mb-6">
                   Sé parte de la evolución digital
               </h2>
-              <p class="text-xl font-medium text-gray-700 mb-4">
+              <p class="text-xl font-medium text-black mb-4">
                   Aprende a implementar soluciones digitales que te permitan trabajar de manera más eficiente.
               </p>
               <p class="text-gray-600 leading-relaxed">
@@ -98,7 +99,7 @@
           <!-- Texto adicional -->
           <div class="w-full mt-12">
               <ul class="text-left">
-                  <li class="text-gray-700 text-lg mb-4 flex items-start">
+                  <li class="text-black text-lg mb-4 flex items-start">
                       <span class="mr-2 mt-1">
                           <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-6 h-6">
                               <path d="M4 12.6111L8.92308 17.5L20 6.5" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -106,7 +107,7 @@
                       </span>
                       <p>Desde cero a <span class="font-bold">experto digitaldentistry</span></p>
                   </li>
-                  <li class="text-gray-700 text-lg mb-4 flex items-start">
+                  <li class="ttext-black text-lg mb-4 flex items-start">
                       <span class="mr-2 mt-1">
                           <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-6 h-6">
                               <path d="M4 12.6111L8.92308 17.5L20 6.5" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -114,7 +115,7 @@
                       </span>
                       <p>Desde la <span class="font-bold">comodidad</span> de tu consultorio-lab, te vas a ahorrar el avión, hotel, comida y, lo mejor, ¡seguirás trabajando y estudiando al mismo tiempo!</p>
                   </li>
-                  <li class="text-gray-700 text-lg mb-4 flex items-start">
+                  <li class="text-black text-lg mb-4 flex items-start">
                       <span class="mr-2 mt-1">
                           <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-6 h-6">
                               <path d="M4 12.6111L8.92308 17.5L20 6.5" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -122,7 +123,7 @@
                       </span>
                       <p>Acceso a <span class="font-bold">grupo VIP</span> donde estarás rodeado de personas de diferentes países empujándose juntos a crecer.</p>
                   </li>
-                  <li class="text-gray-700 text-lg mb-4 flex items-start">
+                  <li class="text-black text-lg mb-4 flex items-start">
                       <span class="mr-2 mt-1">
                           <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-6 h-6">
                               <path d="M4 12.6111L8.92308 17.5L20 6.5" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -130,7 +131,7 @@
                       </span>
                       <p><span class="font-bold">Asesoría 24hrs</span> diaria por 6 meses.</p>
                   </li>
-                  <li class="text-gray-700 text-lg mb-4 flex items-start">
+                  <li class="text-black text-lg mb-4 flex items-start">
                       <span class="mr-2 mt-1">
                           <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-6 h-6">
                               <path d="M4 12.6111L8.92308 17.5L20 6.5" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -138,7 +139,7 @@
                       </span>
                       <p>Artículos traducidos al español JPD. <span class="font-bold">Coffee-Lecture:</span> cápsulas de artículos científicos explicados fácilmente.</p>
                   </li>
-                  <li class="text-gray-700 text-lg mb-4 flex items-start">
+                  <li class="text-black text-lg mb-4 flex items-start">
                       <span class="mr-2 mt-1">
                           <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-6 h-6">
                               <path d="M4 12.6111L8.92308 17.5L20 6.5" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -147,7 +148,7 @@
                       <p><span class="font-bold">Networking:</span> Oportunidad de crear relaciones laborales con compañeros de otros países.</p>
                   </li>
               </ul>
-              <p class="text-gray-700 text-lg font-semibold mt-6">
+              <p class="text-black text-lg font-semibold mt-6">
                   Y más sorpresas. ¡Inscríbete hoy!
               </p>
           </div>
@@ -187,10 +188,10 @@
 
   </div>
 
-  <div id="viajes" class="bg-[#f9f4ef] w-full min-h-screen">
+  <div id="viajes" class="bg-gray-50 my-32">
   <!-- Title -->
   <div id="title" class="text-center pt-8 px-64">
-    <h1 class="text-[#f4a261] font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl">
+    <h1 class="text-yellow-500 font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl">
       Destinos Inolvidables
     </h1>
   </div>
@@ -375,18 +376,18 @@
   </div>
 </div>
 
-<div id="para_quien" class="bg-black">
+<div id="para_quien" class="bg-black pb-10">
   <div class="max-w-6xl mx-auto py-10 px-4 flex flex-col lg:flex-row items-start lg:items-center">
       <!-- Columna del título -->
       <div class="w-full lg:w-1/2 mb-6 lg:mb-0">
-          <h1 class="text-4xl font-bold text-yellow-500">
+          <h1 class="text-4xl  text-yellow-500">
               ¿PARA QUIÉN ES LA ESTANCIA DIGITAL DENTISTRY?
           </h1>
       </div>
       <!-- Columna de la lista -->
       <div class="w-full lg:w-1/2">
           <ul class="space-y-4 text-white">
-              <li class="flex items-start">
+              <li class="flex items-start pt-5">
                   <span class="mt-1 flex-shrink-0">
                       <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                           <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
@@ -441,7 +442,7 @@
   </div>
   
   <div class="py-8">
-    <h1 class="text-center text-2xl lg:text-3xl font-bold text-yellow-400 px-4 max-w-4xl mx-auto">
+    <h1 class="text-center text-2xl lg:text-3xl  text-yellow-400 px-4 max-w-4xl mx-auto">
       Si estás dispuesto a invertir en ti mismo y en tu futuro, esta estancia es la oportunidad perfecta para dar el salto hacia una odontología con transformación digital.
     </h1>
   </div>
@@ -492,7 +493,7 @@
   </div>
   <!-- Tutoriales gratis -->
   
-  <div id="librerias" class="mx-auto max-w-screen-lg">
+  <div id="material" class="mx-auto max-w-screen-lg">
     <div class="py-6">
       <h2 class="text-yellow-500 text-3xl font-bold text-center mb-6">TUTORIALES GRATIS!</h2>
     </div>
