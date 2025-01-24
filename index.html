@@ -56,53 +56,33 @@
 
 
   
-  <div id="main" class="max-w-screen-2xl pt-16 md:pt-36 mx-auto">
-    <!-- Título -->
-    <div id="title" class="text-left pt-8 px-6 sm:px-12 md:px-32 lg:px-64">
-        <h1 class="text-yellow-500 font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl">
-            ESTA<span class="text-black">NCIA</span><br> DIGITAL <span class="text-black">DENTISTRY</span>
-        </h1>
-        <div class="bg-yellow-500 h-[6px] w-32 sm:w-40 md:w-48 lg:w-56 mt-4"></div>
-    </div>
-
-    <!-- Contenido en Grid -->
-    <div id="grid_1x1" class="grid grid-cols-1 lg:grid-cols-2 items-center py-6 px-6 sm:px-12 md:px-24 lg:px-32 xl:px-64 gap-12">
-        
-        <!-- Texto -->
-        <div class="text-left space-y-8">
-            
-            <!-- Primer Bloque de Texto -->
-            <div class="font-serif pt-4 md:pt-12">
-                <h2 class="text-black text-2xl sm:text-3xl md:text-4xl">Nuestro programa</h2>
-                <h1 class="text-yellow-500 text-3xl sm:text-4xl md:text-5xl font-bold">más completo</h1>
-                <h2 class="text-black text-2xl sm:text-3xl md:text-4xl">de Odontología Digital!</h2>
-            </div>
-
-            <!-- Segundo Bloque de Texto -->
-            <div class="text-black text-lg sm:text-xl md:text-2xl leading-relaxed">
-                <h1 class="mb-4">¿ESTÁS LISTO PARA LLEVAR TU ODONTOLOGÍA AL</h1>
-                <h1 class="mb-4">SIGUIENTE NIVEL O LE DIRÁS QUE NO A TU</h1>
-                <h1 class="text-yellow-500 font-bold">CRECIMIENTO?</h1>
-            </div>
-
-            <!-- Botón -->
-            <div id="inscribete" class="text-left">
-                <a href="https://api.whatsapp.com/message/EYD5PVJNW5K2A1?autoload=1&app_absent=0" target="_blank" rel="noopener noreferrer">
-                    <button class="bg-yellow-500 text-black font-bold text-base sm:text-lg md:text-2xl px-4 sm:px-6 py-3 rounded-full hover:bg-yellow-600 hover:shadow-xl transition-all duration-300">
-                        ¡INSCRÍBETE AQUÍ!
-                    </button>
-                </a>
-            </div>
+  <div class="h-screen flex items-center justify-center">
+    <div id="slider-container" class="w-full max-w-xl overflow-hidden relative">
+      <!-- Slider Container -->
+      <div id="slider" class="flex transition-transform duration-500">
+        <!-- Slide 1 -->
+        <div class="w-full flex-shrink-0">
+          <img src="./img/carrusel/carrusel1.jpg" alt="Slide 1" class="w-full">
         </div>
-
-        <!-- Imagen -->
-        <div class="flex justify-center">
-            <img src="/img/karla_negro.png" alt="Silueta" class="rounded-3xl w-[280px] h-[350px] sm:w-[320px] sm:h-[400px] md:w-[360px] md:h-[450px] lg:w-[400px] lg:h-[400px] xl:w-[450px] xl:h-[450px] object-cover">
+        <!-- Slide 2 -->
+        <div class="w-full flex-shrink-0">
+          <img src="./img/carrusel/carrusel2.jpg" alt="Slide 2" class="w-full">
         </div>
+        <!-- Slide 3 -->
+        <div class="w-full flex-shrink-0">
+          <img src="./img/carrusel/carrusel3.jpg" alt="Slide 3" class="w-full">
+        </div>
+      </div>
 
+      <!-- Botones -->
+      <button id="prev" class="absolute top-1/2 left-4 transform -translate-y-1/2 bg-black bg-opacity-50 text-white px-4 py-2 rounded-full hover:bg-opacity-75">
+        &#8249; <!-- Left arrow -->
+      </button>
+      <button id="next" class="absolute top-1/2 right-4 transform -translate-y-1/2 bg-black bg-opacity-50 text-white px-4 py-2 rounded-full hover:bg-opacity-75">
+        &#8250; <!-- Right arrow -->
+      </button>
     </div>
-</div>
-
+  </div>
 
 <div id="desc_curso">
   <div class="py-20">
@@ -753,5 +733,6 @@
 <script src="navbar.js" defer></script>
 <script src="menu.js" defer></script>
 <script src="whatsappButton.js" defer></script>
+<script src="slider.js" defer></script>
 </body>
 </html>
