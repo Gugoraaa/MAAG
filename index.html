@@ -56,7 +56,7 @@
 
 
   
-  <div id="main" class="w-full min-h-screen pt-36">
+  <div id="main" class="w-full min-h-screen pt-16 md:pt-36">
     <!-- Título -->
     <div id="title" class="text-left pt-8 px-6 sm:px-12 md:px-32 lg:px-64">
         <h1 class="text-yellow-500 font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl">
@@ -72,7 +72,7 @@
         <div class="text-left space-y-8">
             
             <!-- Primer Bloque de Texto -->
-            <div class="font-serif pt-12 sm:pt-16 lg:pt-24">
+            <div class="font-serif pt-4 md:pt-12">
                 <h2 class="text-black text-2xl sm:text-3xl md:text-4xl">Nuestro programa</h2>
                 <h1 class="text-yellow-500 text-3xl sm:text-4xl md:text-5xl font-bold">más completo</h1>
                 <h2 class="text-black text-2xl sm:text-3xl md:text-4xl">de Odontología Digital!</h2>
@@ -185,7 +185,7 @@
 
 
   <div id="Nosotros">
-    <div class="py-20">
+    <div class="mb-4 md:py-20">
       <div class="max-w-7xl mx-auto px-6 lg:px-8 flex flex-col lg:flex-row items-center">
         <!-- Imagen -->
         <div class="lg:w-1/2 w-full mb-8 lg:mb-0">
@@ -215,15 +215,15 @@
 
   
 
-  <div id="viajes" class="mb-40 mt-20">
+  <div id="viajes" class="mb-10 md:mb-40 mt-20">
     <!-- Title -->
-    <div id="title" class="text-center pt-8 px-4 sm:px-12 md:px-32 lg:px-64">
+    <div id="title" class="text-center md:pt-8 pt-1 px-4 sm:px-12 md:px-32 lg:px-64">
       <h1 class="text-yellow-500 font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl">
         Destinos Inolvidables
       </h1>
     </div>
   
-    <div class="max-w-6xl mx-auto py-6 px-4 sm:px-8 md:px-12 mt-16 bg-white rounded-lg shadow-xl">
+    <div class="max-w-6xl mt-1 mx-auto py-6 px-4 sm:px-8 md:px-12 md:mt-16 bg-white rounded-lg shadow-xl">
       <!-- Tab Navigation -->
       <div class="flex flex-wrap justify-center sm:justify-start space-x-2 sm:space-x-4 md:space-x-6 border-b border-gray-300 pb-4">
         <button class="tab active text-[#6c757d] hover:text-black px-4 sm:px-6 py-2 text-sm sm:text-lg">
@@ -247,7 +247,8 @@
         <button class="tab text-[#6c757d] hover:text-black px-4 sm:px-6 py-2 text-sm sm:text-lg">
           MEXICO
         </button>
-      </div>
+    </div>
+
   
       <!-- Tab Content -->
       <div class="mt-10">
@@ -283,10 +284,6 @@
                 <p>
                   Gracias por darme la oportunidad de estar frente a una audiencia tan 
                   <span class="font-bold text-yellow-500">apasionada y cálida</span> en una conferencia que marcó mi camino.
-                </p>
-                <p>
-                  Estoy inmensamente agradecido por cada conversación, 
-                  <span class="font-bold text-yellow-500">cada sonrisa</span>, y por el privilegio de compartir juntos.
                 </p>
                 <p>
                   ¡Siempre llevaré conmigo el <span class="font-bold italic text-yellow-500">sabor de un pastel de nata</span> y la calidez de su gente!
@@ -649,17 +646,16 @@
 <!-- Podcast -->
 <div class="bg-black py-8">
   <div class="py-6">
-    <h2 class="text-yellow-500 text-3xl font-bold text-center mb-6">RECUERDA ESCUCHAR NUESTROS PODCAST!</h2>
+    <h2 class="text-yellow-500 text-3xl font-bold text-center mb-6">RECUERDA ESCUCHAR NUESTROS PODCASTS!</h2>
   </div>
 
   <!-- Grid centrado con más separación horizontal -->
   <div class="flex justify-center">
     <div class="grid grid-cols-1 sm:grid-cols-2 gap-y-4 gap-x-10 px-4 justify-items-center">
       <!-- Video 1 -->
-      <div>
+      <div class="flex justify-center md:w-96 w-full mx-auto">
         <iframe 
-          width="400" 
-          height="200" 
+          class="w-80 h-48" 
           src="https://www.youtube.com/embed/HDswCVHoXq8" 
           title="YouTube video player" 
           frameborder="0" 
@@ -668,10 +664,9 @@
         </iframe>
       </div>
       <!-- Video 2 -->
-      <div>
+      <div class="flex justify-center md:w-96 w-full mx-auto">
         <iframe 
-          width="400" 
-          height="200" 
+          class="w-80 h-48" 
           src="https://www.youtube.com/embed/wN1npvVZOI4" 
           title="YouTube video player" 
           frameborder="0" 
