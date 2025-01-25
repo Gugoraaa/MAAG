@@ -7,7 +7,7 @@ module.exports = {
   theme: {
     extend: {
        fontFamily: {
-        times: ['"Times New Roman"', 'serif'], // Añadimos Times New Roman
+        genos: ["Genos", "serif"]
       },
     
     
