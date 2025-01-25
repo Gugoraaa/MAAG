@@ -9,6 +9,8 @@ module.exports = {
        fontFamily: {
         times: ['"Times New Roman"', 'serif'], // Añadimos Times New Roman
       },
+    
+    
     },
   },
   plugins: [],
