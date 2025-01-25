@@ -2,18 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@keyframes moveUpDown {
-  0%, 100% {
-    transform: translateY(0); /* Posición inicial y final */
-  }
-  50% {
-    transform: translateY(-45px); /* 45px hacia arriba */
-  }
-  50% {
-    transform: translateY(65px); /* 45px hacia arriba */
-  }
-}
-
-.animate-move-up-down {
-  animation: moveUpDown 2s ease-in-out infinite; /* Duración de 2 segundos, loop infinito */
+.group:hover .card:not(:hover) {
+  filter: blur(4px);
 }
