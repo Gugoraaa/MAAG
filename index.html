@@ -8,12 +8,12 @@
 </head >
 <body class="bg-slate-950 text-white min-h-screen bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:14px_24px]">
   <!-- Fondo personalizado con grid -->
-  <nav class="bg-gray-50 fixed -top-1 left-0 w-full z-50 shadow-sm shadow-neutral-500">
+  <nav class=" -top-1 left-0 w-full z-50 shadow-sm fixed backdrop-blur bg-black/60 py-2">
     <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
       <div class="relative flex h-16 items-center justify-between">
         <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
           <!-- Mobile menu button-->
-          <button id="menu-toggle" type="button" class="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-black hover:text-white focus:ring-2 focus:ring-white focus:outline-hidden focus:ring-inset" style="top: -2px;">
+          <button id="menu-toggle" type="button" class="relative inline-flex items-center justify-center rounded-md p-2  text-gray-400 hover:bg-black hover:text-white focus:ring-2 focus:ring-white focus:outline-hidden focus:ring-inset" style="top: -2px;">
             <span class="absolute -inset-0.5"></span>
             <span class="sr-only">Open main menu</span>
             <svg id="icon-open" class="block size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
@@ -24,30 +24,37 @@
             </svg>
           </button>
         </div>
-        <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
-          <div class="flex shrink-0 items-center">
-            <h1 class="text-black font-bold">MAAG</h1>
+        <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start  ">
+          <div class="flex items-center border border-white">
+            <!-- Parte izquierda (MIMIC) -->
+            <div class=" text-white px-4 py-2 text-lg font-bold">
+              M A A G
+            </div>
+            <!-- Parte derecha (US) -->
+            <div class="bg-white text-black px-4 py-2 text-lg font-bold">
+              MX
+            </div>
           </div>
-          <div class="hidden sm:ml-6 sm:block">
+          <div class="hidden sm:ml-6 sm:block pt-2">
             <div class="flex space-x-4">
-              <a href="#main" class="rounded-md px-3 py-2 text-sm font-medium text-black hover:bg-black hover:text-white" aria-current="page">Inicio</a>
-              <a href="#Nosotros" class="rounded-md px-3 py-2 text-sm font-medium text-black hover:bg-black hover:text-white">Sobre mí</a>
-              <a href="#viajes" class="rounded-md px-3 py-2 text-sm font-medium text-black hover:bg-black hover:text-white">Viajes</a>
-              <a href="#opiniones" class="rounded-md px-3 py-2 text-sm font-medium text-black hover:bg-black hover:text-white">Opiniones</a>
-              <a href="#material" class="rounded-md px-3 py-2 text-sm font-medium text-black hover:bg-black hover:text-white">Material</a>
+              <a href="#main" class="rounded-md px-3 py-2 text-sm font-medium text-white hover:bg-white hover:text-black" aria-current="page">Inicio</a>
+              <a href="#Nosotros" class="rounded-md px-3 py-2 text-sm font-medium text-white hover:bg-white hover:text-black">Sobre mí</a>
+              <a href="#viajes" class="rounded-md px-3 py-2 text-sm font-medium text-white hover:bg-white hover:text-black">Viajes</a>
+              <a href="#opiniones" class="rounded-md px-3 py-2 text-sm font-medium text-white hover:bg-white hover:text-black">Opiniones</a>
+              <a href="#material" class="rounded-md px-3 py-2 text-sm font-medium text-white hover:bg-white hover:text-black">Material</a>
             </div>
           </div>
         </div>
       </div>
     </div>
     <!-- Mobile menu, show/hide based on menu state. -->
-    <div class="sm:hidden hidden" id="mobile-menu" > <!-- Ajuste para estar más arriba -->
+    <div class="sm:hidden hidden bg-black text-white shadow-sm" id="mobile-menu" > <!-- Ajuste para estar más arriba -->
       <div class="space-y-1 px-2 pt-2 pb-3">
-        <a href="#main" class="block rounded-md  px-3 py-2 text-base font-medium hover:bg-black hover:text-white" aria-current="page">Inicio</a>
-        <a href="#Nosotros" class="block rounded-md px-3 py-2 text-base font-medium text-black hover:bg-black hover:text-white">Sobre mí</a>
-        <a href="#viajes" class="block rounded-md px-3 py-2 text-base font-medium text-black hover:bg-black hover:text-white">Viajes</a>
-        <a href="#opiniones" class="block rounded-md px-3 py-2 text-base font-medium text-black hover:bg-black hover:text-white">Opiniones</a>
-        <a href="#material" class="block rounded-md px-3 py-2 text-base font-medium text-black hover:bg-black hover:text-white">Material</a>
+        <a href="#main" class="block rounded-md  px-3 py-2 text-base font-medium  hover:text-black hover:bg-white" aria-current="page">Inicio</a>
+        <a href="#Nosotros" class="block rounded-md px-3 py-2 text-base font-medium hover:text-black hover:bg-white ">Sobre mí</a>
+        <a href="#viajes" class="block rounded-md px-3 py-2 text-base font-medium hover:text-black hover:bg-white ">Viajes</a>
+        <a href="#opiniones" class="block rounded-md px-3 py-2 text-base font-medium hover:text-black hover:bg-white ">Opiniones</a>
+        <a href="#material" class="block rounded-md px-3 py-2 text-base font-medium hover:text-black hover:bg-white ">Material</a>
       </div>
     </div>
   </nav>
