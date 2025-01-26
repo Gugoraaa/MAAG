@@ -3,9 +3,9 @@ const tabContents = document.querySelectorAll(".tab-content");
 
 function activateTab(tab, index) {
   tabs.forEach(t => {
-    t.classList.remove("active", "text-white", "border-b-2", "border-[#2A9D8F]", "rounded-lg","font-bold","bg-blue-400", "text-black");
+    t.classList.remove("active", "text-white", "rounded-lg","font-bold","bg-blue-400", "text-black");
   });
-  tab.classList.add("active", "text-black", "border-b-2", "border-[#2A9D8F]", "rounded-lg","font-bold","bg-blue-400");
+  tab.classList.add("active", "text-black", "rounded-lg","font-bold","bg-blue-400");
   tabContents.forEach(content => content.classList.add("hidden"));
   tabContents[index].classList.remove("hidden");
 }

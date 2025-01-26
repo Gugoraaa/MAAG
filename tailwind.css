@@ -54,3 +54,24 @@
 .animation-delay-400 {
   animation-delay: 0.4s;
 }
+
+
+@keyframes rotate-shake {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(5deg);
+  }
+  50% {
+    transform: rotate(-5deg);
+  }
+  70% {
+    transform: rotate(5deg);
+  }
+  
+}
+
+.hover-rotate-shake:hover {
+  animation: rotate-shake .5s ease-in-out;
+}

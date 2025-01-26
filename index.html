@@ -41,10 +41,10 @@
           <div class="hidden sm:ml-6 sm:block pt-2">
             <div class="flex space-x-4">
               <a href="#main" class="rounded-md px-3 py-2 text-sm font-medium text-white hover:bg-white hover:text-black" aria-current="page">Inicio</a>
-              <a href="#Nosotros" class="rounded-md px-3 py-2 text-sm font-medium text-white hover:bg-white hover:text-black">Sobre mí</a>
+              <a href="#Nosotros" class="rounded-md px-3 py-2 text-sm font-medium text-white hover:bg-white hover:text-black">Nosotros</a>
               <a href="#viajes" class="rounded-md px-3 py-2 text-sm font-medium text-white hover:bg-white hover:text-black">Viajes</a>
               <a href="#opiniones" class="rounded-md px-3 py-2 text-sm font-medium text-white hover:bg-white hover:text-black">Opiniones</a>
-              <a href="#material" class="rounded-md px-3 py-2 text-sm font-medium text-white hover:bg-white hover:text-black">Material</a>
+              <a href="#podcast" class="rounded-md px-3 py-2 text-sm font-medium text-white hover:bg-white hover:text-black">Podcast</a>
             </div>
           </div>
         </div>
@@ -54,16 +54,16 @@
     <div class="sm:hidden hidden bg-black text-white shadow-sm" id="mobile-menu" > <!-- Ajuste para estar más arriba -->
       <div class="space-y-1 px-2 pt-2 pb-3">
         <a href="#main" class="block rounded-md  px-3 py-2 text-base font-medium  hover:text-black hover:bg-white" aria-current="page">Inicio</a>
-        <a href="#Nosotros" class="block rounded-md px-3 py-2 text-base font-medium hover:text-black hover:bg-white ">Sobre mí</a>
+        <a href="#Nosotros" class="block rounded-md px-3 py-2 text-base font-medium hover:text-black hover:bg-white ">Nosotros</a>
         <a href="#viajes" class="block rounded-md px-3 py-2 text-base font-medium hover:text-black hover:bg-white ">Viajes</a>
         <a href="#opiniones" class="block rounded-md px-3 py-2 text-base font-medium hover:text-black hover:bg-white ">Opiniones</a>
-        <a href="#material" class="block rounded-md px-3 py-2 text-base font-medium hover:text-black hover:bg-white ">Material</a>
+        <a href="#podcast" class="block rounded-md px-3 py-2 text-base font-medium hover:text-black hover:bg-white ">Podcast</a>
       </div>
     </div>
   </nav>
 
 
-  <div class="flex items-center justify-center my-60">
+  <div class="flex items-center justify-center my-60" id="main">
     <div class="relative w-full max-w-7xl text-left p-8 flex flex-col lg:flex-row items-center lg:items-start gap-16 ">
       <!-- Texto -->
       <div class="flex-1">
@@ -78,9 +78,20 @@
         </p>
         <div class="flex flex-col sm:flex-row gap-4">
           <a href="https://api.whatsapp.com/message/EYD5PVJNW5K2A1?autoload=1&app_absent=0" target="_blank" rel="noopener noreferrer">
-            <button class="bg-white text-black px-6 py-3 rounded-md font-bold text-lg hover:bg-gray-100 transition-all">
-              Inscríbete aquí →
+            <button class="bg-white text-black px-6 py-3 rounded-md font-bold text-lg hover:bg-gray-100 transition-all flex items-center group">
+              Inscríbete aquí
+              <svg
+                class="ml-2 h-5 w-5 text-black transition-transform group-hover:translate-x-2"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+              </svg>
             </button>
+            
           </a>
         </div>
       </div>
@@ -98,7 +109,7 @@
   
 
 
-<div id="desc_curso" class="pt-10">
+<div id="Nosotros" class="pt-10">
   <div class="max-w-7xl mx-auto px-6 lg:p-8 grid grid-cols-2 grid-rows-2 gap-5 h-1/2">
     <!-- Elemento 1 (Solo Foto, en la parte superior izquierda) -->
     <div class="rounded-3xl shadow-lg transition-all duration-300 transform hover:scale-105 h-full w-full">
@@ -107,7 +118,7 @@
     
     <!-- Elemento 3 (Contenido Extendido, a la derecha ocupando toda la columna derecha) -->
     <div class="bg-gray-800 py-8 px-16 rounded-3xl shadow-lg row-span-2 transition-all duration-300 transform hover:scale-105 max-h-max">
-      <h2 class="text-4xl font-genos text-white mb-10 ">
+      <h2 class="text-4xl font-bold text-white mb-10 ">
         Sé parte de la evolución digital
       </h2>
       <p class="text-xl text-white mb-6">
@@ -190,20 +201,122 @@
   </div>
 </div>
 
+<section class="max-w-7xl mx-auto px-6 py-16">
+  <!-- Header -->
+  <div class="text-center mb-12">
+    <h2 class="text-sm font-semibold tracking-wide text-blue-400 uppercase mb-4">Avanza hacia el futuro de la odontología</h2>
+    <h1 class="text-3xl md:text-4xl font-bold">¿Para quién es la estancia digital dentistry?</h1>
+  </div>
+
+  <!-- Features -->
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center group relative">
+    <!-- Reliably Scalable -->
+    <div class="bg-gray-800 p-8 rounded-lg transition-all duration-300 hover:scale-105 group-hover:blur-sm hover:!blur-none">
+      <div class="mb-6">
+        <svg class="mx-auto text-blue-400 w-8 h-8" viewBox="0 0 24 24" role="img" xmlns="http://www.w3.org/2000/svg" aria-labelledby="rotateIconTitle" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter">
+          <title id="rotateIconTitle">Rotate</title>
+          <path d="M22 12l-3 3-3-3"></path>
+          <path d="M2 12l3-3 3 3"></path>
+          <path d="M19.016 14v-1.95A7.05 7.05 0 0 0 8 6.22"></path>
+          <path d="M16.016 17.845A7.05 7.05 0 0 1 5 12.015V10"></path>
+          <path stroke-linecap="round" d="M5 10V9"></path>
+          <path stroke-linecap="round" d="M19 15v-1"></path>
+        </svg>
+              
+        
+      </div>
+      <h3 class="text-xl font-semibold mb-4">Revoluciona tu práctica odontológica</h3>
+      <p class="text-gray-400 text-sm">
+        Moderniza tus herramientas y métodos para brindar la mejor atención.
+      </p>
+    </div>
+
+    <!-- Secure & Compliant -->
+    <div class="bg-gray-800 p-8 rounded-lg transition-all duration-300 hover:scale-105 group-hover:blur-sm hover:!blur-none">
+      <div class="mb-6">
+        <svg class="mx-auto text-blue-400 w-8 h-8" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M12 7V12H15M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" 
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+        </svg>
+        
+      </div>
+      <h3 class="text-xl font-semibold mb-4">Optimiza tu tiempo y aumenta tu productividad</h3>
+      <p class="text-gray-400 text-sm">
+        Aprovecha la tecnología para hacer más en menos tiempo.
+      </p>
+    </div>
+
+    <!-- Expert Engineering Support -->
+    <div class="bg-gray-800 p-8 rounded-lg transition-all duration-300 hover:scale-105 group-hover:blur-sm hover:!blur-none">
+      <div class="mb-6">
+        <svg class="mx-auto text-blue-400 w-8 h-8" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M678.584675 765.172506v157.995691l75.697852 31.505938V723.768586a429.379161 429.379161 0 0 1-75.697852 41.40392zM269.717473 723.768586V953.098138l75.697852-31.505938v-156.419694a429.309162 429.309162 0 0 1-75.697852-41.40392zM511.999 798.78444a428.955162 428.955162 0 0 1-105.993793-13.241974v238.457534L511.999 979.886086 617.992793 1023.998V785.542466A429.025162 429.025162 0 0 1 511.999 798.78444zM511.999 0C308.479398 0 142.903721 165.575677 142.903721 369.097279S308.479398 738.192558 511.999 738.192558s369.097279-165.575677 369.097279-369.097279S715.520602 0 511.999 0z m0 660.198711c-161.345685 0-292.611428-131.265744-292.611428-292.611429 0-161.347685 131.265744-292.613428 292.611428-292.613428s292.611428 131.265744 292.611428 292.613428c0 161.347685-131.263744 292.611428-292.611428 292.611429zM511.999 135.563735c-127.93575 0-232.021547 104.083797-232.021547 232.023547S384.06325 599.606829 511.999 599.606829s232.021547-104.083797 232.021547-232.021547c0-127.93775-104.083797-232.021547-232.021547-232.021547zM607.360814 502.999018L511.999 452.865115 416.639186 502.999018l18.211965-106.183793-77.14785-75.199853 106.617792-15.49397L511.999 209.509591l47.679907 96.611811 106.617792 15.49397-77.14785 75.199853 18.211965 106.183793z" 
+                stroke="currentColor" fill="currentColor"></path>
+        </svg>        
+      </div>
+      <h3 class="text-xl font-semibold mb-4">Ofrece tratamientos de alta precisión y calidad</h3>
+      <p class="text-gray-400 text-sm">
+        Resalta tu experiencia con resultados excepcionales.
+      </p>
+    </div>
+
+    <div class="bg-gray-800 p-8 rounded-lg transition-all duration-300 hover:scale-105 group-hover:blur-sm hover:!blur-none">
+      <div class="mb-6">
+        <svg class="mx-auto text-blue-400 w-8 h-8" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M11.2691 4.41115C11.5006 3.89177 11.6164 3.63208 11.7776 3.55211C11.9176 3.48263 12.082 3.48263 12.222 3.55211C12.3832 3.63208 12.499 3.89177 12.7305 4.41115L14.5745 8.54808C14.643 8.70162 14.6772 8.77839 14.7302 8.83718C14.777 8.8892 14.8343 8.93081 14.8982 8.95929C14.9705 8.99149 15.0541 9.00031 15.2213 9.01795L19.7256 9.49336C20.2911 9.55304 20.5738 9.58288 20.6997 9.71147C20.809 9.82316 20.8598 9.97956 20.837 10.1342C20.8108 10.3122 20.5996 10.5025 20.1772 10.8832L16.8125 13.9154C16.6877 14.0279 16.6252 14.0842 16.5857 14.1527C16.5507 14.2134 16.5288 14.2807 16.5215 14.3503C16.5132 14.429 16.5306 14.5112 16.5655 14.6757L17.5053 19.1064C17.6233 19.6627 17.6823 19.9408 17.5989 20.1002C17.5264 20.2388 17.3934 20.3354 17.2393 20.3615C17.0619 20.3915 16.8156 20.2495 16.323 19.9654L12.3995 17.7024C12.2539 17.6184 12.1811 17.5765 12.1037 17.56C12.0352 17.5455 11.9644 17.5455 11.8959 17.56C11.8185 17.5765 11.7457 17.6184 11.6001 17.7024L7.67662 19.9654C7.18404 20.2495 6.93775 20.3915 6.76034 20.3615C6.60623 20.3354 6.47319 20.2388 6.40075 20.1002C6.31736 19.9408 6.37635 19.6627 6.49434 19.1064L7.4341 14.6757C7.46898 14.5112 7.48642 14.429 7.47814 14.3503C7.47081 14.2807 7.44894 14.2134 7.41394 14.1527C7.37439 14.0842 7.31195 14.0279 7.18708 13.9154L3.82246 10.8832C3.40005 10.5025 3.18884 10.3122 3.16258 10.1342C3.13978 9.97956 3.19059 9.82316 3.29993 9.71147C3.42581 9.58288 3.70856 9.55304 4.27406 9.49336L8.77835 9.01795C8.94553 9.00031 9.02911 8.99149 9.10139 8.95929C9.16534 8.93081 9.2226 8.8892 9.26946 8.83718C9.32241 8.77839 9.35663 8.70162 9.42508 8.54808L11.2691 4.41115Z" 
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+        </svg>        
+      </div>
+      <h3 class="text-xl font-semibold mb-4">Destácate en el mundo de la odontología</h3>
+      <p class="text-gray-400 text-sm">
+        Sé un referente en innovación y profesionalismo.
+      </p>
+    </div>
+
+    <div class="bg-gray-800 p-8 rounded-lg transition-all duration-300 hover:scale-105 group-hover:blur-sm hover:!blur-none">
+      <div class="mb-6">
+        <svg class="mx-auto text-blue-400 w-8 h-8" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" fill="none">
+          <path d="M36,22v-2.81c1.09-.55,2.06-1.32,2.85-2.26-.26-.58-.25-1.27,.08-1.87,.34-.59,.92-.94,1.54-1,.34-.96,.53-1.99,.53-3.07s-.19-2.11-.53-3.07c-.62-.06-1.21-.41-1.54-1-.34-.59-.34-1.29-.08-1.87-1.32-1.57-3.14-2.68-5.22-3.06-.36,.52-.96,.86-1.63,.86s-1.27-.34-1.63-.86c-2.08,.39-3.9,1.5-5.22,3.06,.26,.58,.25,1.27-.08,1.87-.34,.59-.92,.94-1.54,1-.34,.96-.53,1.99-.53,3.07s.19,2.11,.53,3.07c.62,.06,1.21,.41,1.54,1,.34,.59,.34,1.29,.08,1.87,.78,.94,1.75,1.7,2.85,2.26v2.81" stroke="currentColor" fill="currentColor"></path>
+          <path d="M32,62h-3l-2-2H10v-24h4v18s12.15-3,18,8Z" stroke="currentColor" fill="currentColor"></path>
+          <path d="M50,54v-18h4v24h-17s-2,2-2,2h-3c5.85-11,18-8,18-8Z" stroke="currentColor" fill="currentColor"></path>
+          <path d="M32,62c-5.85-11-18-8-18-8v-21l6-2v19c6.63,0,12,5.37,12,12Z" stroke="currentColor" fill="currentColor"></path>
+          <path d="M44,31l6,2v21s-12.15-3-18,8c0-6.63,5.37-12,12-12V31Z" stroke="currentColor" fill="currentColor"></path>
+          <path d="M32,42c0-6.63-5.37-12-12-12v20c6.63,0,12,5.37,12,12,0-6.63,5.37-12,12-12V30c-6.63,0-12,5.37-12,12Z" stroke="currentColor" fill="currentColor"></path>
+          <circle cx="32" cy="11" r="5" stroke="currentColor" fill="currentColor"></circle>
+          <rect height="4" rx="1" ry="1" width="10" x="27" y="22" stroke="currentColor" fill="currentColor"></rect>
+        </svg>
+        
+      </div>
+      <h3 class="text-xl font-semibold mb-4">Invierte en innovación y crecimiento profesional</h3>
+      <p class="text-gray-400 text-sm">
+        Asegura el éxito continuo de tu carrera.
+      </p>
+    </div>
+
+    <div class="bg-gray-800 p-8 rounded-lg transition-all duration-300 hover:scale-105 group-hover:blur-sm hover:!blur-none">
+      <div class="mb-6">
+        <svg class="mx-auto text-blue-400 w-8 h-8" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M12 14V17M12 14C9.58104 14 7.56329 12.2822 7.10002 10M12 14C14.419 14 16.4367 12.2822 16.9 10M17 5H19.75C19.9823 5 20.0985 5 20.1951 5.01921C20.5918 5.09812 20.9019 5.40822 20.9808 5.80491C21 5.90151 21 6.01767 21 6.25C21 6.94698 21 7.29547 20.9424 7.58527C20.7056 8.77534 19.7753 9.70564 18.5853 9.94236C18.2955 10 17.947 10 17.25 10H17H16.9M7 5H4.25C4.01767 5 3.90151 5 3.80491 5.01921C3.40822 5.09812 3.09812 5.40822 3.01921 5.80491C3 5.90151 3 6.01767 3 6.25C3 6.94698 3 7.29547 3.05764 7.58527C3.29436 8.77534 4.22466 9.70564 5.41473 9.94236C5.70453 10 6.05302 10 6.75 10H7H7.10002M12 17C12.93 17 13.395 17 13.7765 17.1022C14.8117 17.3796 15.6204 18.1883 15.8978 19.2235C16 19.605 16 20.07 16 21H8C8 20.07 8 19.605 8.10222 19.2235C8.37962 18.1883 9.18827 17.3796 10.2235 17.1022C10.605 17 11.07 17 12 17ZM7.10002 10C7.03443 9.67689 7 9.34247 7 9V4.57143C7 4.03831 7 3.77176 7.09903 3.56612C7.19732 3.36201 7.36201 3.19732 7.56612 3.09903C7.77176 3 8.03831 3 8.57143 3H15.4286C15.9617 3 16.2282 3 16.4339 3.09903C16.638 3.19732 16.8027 3.36201 16.901 3.56612C17 3.77176 17 4.03831 17 4.57143V9C17 9.34247 16.9656 9.67689 16.9 10" 
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+        </svg>        
+      </div>
+      <h3 class="text-xl font-semibold mb-4">Para quienes buscan marcar la diferencia</h3>
+      <p class="text-gray-400 text-sm">
+        Avanza hacia el futuro de la odontología
+      </p>
+    </div>
+  </div>
+  <h2 class="text-md font-semibold tracking-wide text-[#AAB2C0] mb-4 text-center pt-8">      
+    Si estás dispuesto a invertir en ti mismo y en tu futuro,<br> esta estancia es la oportunidad perfecta para dar el salto hacia una odontología con transformación digital.
+</h2>
+
+</section>
+
+  
+  
 
 
-  
-  
-
-  
-  
-  
-  
-    
-
-  
-
-  <div id="viajes" class="mb-10 md:mb-40">
+  <div id="viajes" class="my-28">
     <!-- Title -->
     <div id="title" class="text-center md:pt-2 px-4 sm:px-12 md:px-32 lg:px-64">
       <h1 class="text-white font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl">
@@ -214,7 +327,7 @@
     <div class="max-w-6xl mt-1 mx-auto py-6 px-4 sm:px-8 md:px-12 md:mt-16 bg-gray-800 rounded-lg shadow-xl flex items-center justify-center">
       <!-- Tab Navigation -->
       <div class="flex flex-wrap justify-center space-x-2 sm:space-x-4 md:space-x-7">
-        <button class="tab active text-white px-4 sm:px-6 py-2 text-sm sm:text-lg ">
+        <button class="tab active text-white px-4 sm:px-6 py-2 text-sm sm:text-lg bg-blue-400 ">
           RD
         </button>
         <button class="tab text-white  px-4 sm:px-6 py-2 text-sm sm:text-lg">
@@ -384,125 +497,16 @@
 
 
 
-<section class="max-w-7xl mx-auto px-6 py-16">
-  <!-- Header -->
-  <div class="text-center mb-12">
-    <h2 class="text-sm font-semibold tracking-wide text-blue-400 uppercase mb-4">Avanza hacia el futuro de la odontología</h2>
-    <h1 class="text-3xl md:text-4xl font-bold">¿Para quién es la estancia digital dentistry?</h1>
-  </div>
 
-  <!-- Features -->
-  <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center group relative">
-    <!-- Reliably Scalable -->
-    <div class="bg-gray-800 p-8 rounded-lg transition-all duration-300 hover:scale-105 group-hover:blur-sm hover:!blur-none">
-      <div class="mb-6">
-        <svg class="mx-auto text-blue-400 w-8 h-8" viewBox="0 0 24 24" role="img" xmlns="http://www.w3.org/2000/svg" aria-labelledby="rotateIconTitle" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter">
-          <title id="rotateIconTitle">Rotate</title>
-          <path d="M22 12l-3 3-3-3"></path>
-          <path d="M2 12l3-3 3 3"></path>
-          <path d="M19.016 14v-1.95A7.05 7.05 0 0 0 8 6.22"></path>
-          <path d="M16.016 17.845A7.05 7.05 0 0 1 5 12.015V10"></path>
-          <path stroke-linecap="round" d="M5 10V9"></path>
-          <path stroke-linecap="round" d="M19 15v-1"></path>
-        </svg>
-              
-        
-      </div>
-      <h3 class="text-xl font-semibold mb-4">Revoluciona tu práctica odontológica</h3>
-      <p class="text-gray-400 text-sm">
-        Moderniza tus herramientas y métodos para brindar la mejor atención.
-      </p>
-    </div>
-
-    <!-- Secure & Compliant -->
-    <div class="bg-gray-800 p-8 rounded-lg transition-all duration-300 hover:scale-105 group-hover:blur-sm hover:!blur-none">
-      <div class="mb-6">
-        <svg class="mx-auto text-blue-400 w-8 h-8" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M12 7V12H15M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" 
-                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-        </svg>
-        
-      </div>
-      <h3 class="text-xl font-semibold mb-4">Optimiza tu tiempo y aumenta tu productividad</h3>
-      <p class="text-gray-400 text-sm">
-        Aprovecha la tecnología para hacer más en menos tiempo.
-      </p>
-    </div>
-
-    <!-- Expert Engineering Support -->
-    <div class="bg-gray-800 p-8 rounded-lg transition-all duration-300 hover:scale-105 group-hover:blur-sm hover:!blur-none">
-      <div class="mb-6">
-        <svg class="mx-auto text-blue-400 w-8 h-8" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M678.584675 765.172506v157.995691l75.697852 31.505938V723.768586a429.379161 429.379161 0 0 1-75.697852 41.40392zM269.717473 723.768586V953.098138l75.697852-31.505938v-156.419694a429.309162 429.309162 0 0 1-75.697852-41.40392zM511.999 798.78444a428.955162 428.955162 0 0 1-105.993793-13.241974v238.457534L511.999 979.886086 617.992793 1023.998V785.542466A429.025162 429.025162 0 0 1 511.999 798.78444zM511.999 0C308.479398 0 142.903721 165.575677 142.903721 369.097279S308.479398 738.192558 511.999 738.192558s369.097279-165.575677 369.097279-369.097279S715.520602 0 511.999 0z m0 660.198711c-161.345685 0-292.611428-131.265744-292.611428-292.611429 0-161.347685 131.265744-292.613428 292.611428-292.613428s292.611428 131.265744 292.611428 292.613428c0 161.347685-131.263744 292.611428-292.611428 292.611429zM511.999 135.563735c-127.93575 0-232.021547 104.083797-232.021547 232.023547S384.06325 599.606829 511.999 599.606829s232.021547-104.083797 232.021547-232.021547c0-127.93775-104.083797-232.021547-232.021547-232.021547zM607.360814 502.999018L511.999 452.865115 416.639186 502.999018l18.211965-106.183793-77.14785-75.199853 106.617792-15.49397L511.999 209.509591l47.679907 96.611811 106.617792 15.49397-77.14785 75.199853 18.211965 106.183793z" 
-                stroke="currentColor" fill="currentColor"></path>
-        </svg>        
-      </div>
-      <h3 class="text-xl font-semibold mb-4">Ofrece tratamientos de alta precisión y calidad</h3>
-      <p class="text-gray-400 text-sm">
-        Resalta tu experiencia con resultados excepcionales.
-      </p>
-    </div>
-
-    <div class="bg-gray-800 p-8 rounded-lg transition-all duration-300 hover:scale-105 group-hover:blur-sm hover:!blur-none">
-      <div class="mb-6">
-        <svg class="mx-auto text-blue-400 w-8 h-8" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M11.2691 4.41115C11.5006 3.89177 11.6164 3.63208 11.7776 3.55211C11.9176 3.48263 12.082 3.48263 12.222 3.55211C12.3832 3.63208 12.499 3.89177 12.7305 4.41115L14.5745 8.54808C14.643 8.70162 14.6772 8.77839 14.7302 8.83718C14.777 8.8892 14.8343 8.93081 14.8982 8.95929C14.9705 8.99149 15.0541 9.00031 15.2213 9.01795L19.7256 9.49336C20.2911 9.55304 20.5738 9.58288 20.6997 9.71147C20.809 9.82316 20.8598 9.97956 20.837 10.1342C20.8108 10.3122 20.5996 10.5025 20.1772 10.8832L16.8125 13.9154C16.6877 14.0279 16.6252 14.0842 16.5857 14.1527C16.5507 14.2134 16.5288 14.2807 16.5215 14.3503C16.5132 14.429 16.5306 14.5112 16.5655 14.6757L17.5053 19.1064C17.6233 19.6627 17.6823 19.9408 17.5989 20.1002C17.5264 20.2388 17.3934 20.3354 17.2393 20.3615C17.0619 20.3915 16.8156 20.2495 16.323 19.9654L12.3995 17.7024C12.2539 17.6184 12.1811 17.5765 12.1037 17.56C12.0352 17.5455 11.9644 17.5455 11.8959 17.56C11.8185 17.5765 11.7457 17.6184 11.6001 17.7024L7.67662 19.9654C7.18404 20.2495 6.93775 20.3915 6.76034 20.3615C6.60623 20.3354 6.47319 20.2388 6.40075 20.1002C6.31736 19.9408 6.37635 19.6627 6.49434 19.1064L7.4341 14.6757C7.46898 14.5112 7.48642 14.429 7.47814 14.3503C7.47081 14.2807 7.44894 14.2134 7.41394 14.1527C7.37439 14.0842 7.31195 14.0279 7.18708 13.9154L3.82246 10.8832C3.40005 10.5025 3.18884 10.3122 3.16258 10.1342C3.13978 9.97956 3.19059 9.82316 3.29993 9.71147C3.42581 9.58288 3.70856 9.55304 4.27406 9.49336L8.77835 9.01795C8.94553 9.00031 9.02911 8.99149 9.10139 8.95929C9.16534 8.93081 9.2226 8.8892 9.26946 8.83718C9.32241 8.77839 9.35663 8.70162 9.42508 8.54808L11.2691 4.41115Z" 
-                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-        </svg>        
-      </div>
-      <h3 class="text-xl font-semibold mb-4">Destácate en el mundo de la odontología</h3>
-      <p class="text-gray-400 text-sm">
-        Sé un referente en innovación y profesionalismo.
-      </p>
-    </div>
-
-    <div class="bg-gray-800 p-8 rounded-lg transition-all duration-300 hover:scale-105 group-hover:blur-sm hover:!blur-none">
-      <div class="mb-6">
-        <svg class="mx-auto text-blue-400 w-8 h-8" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" fill="none">
-          <path d="M36,22v-2.81c1.09-.55,2.06-1.32,2.85-2.26-.26-.58-.25-1.27,.08-1.87,.34-.59,.92-.94,1.54-1,.34-.96,.53-1.99,.53-3.07s-.19-2.11-.53-3.07c-.62-.06-1.21-.41-1.54-1-.34-.59-.34-1.29-.08-1.87-1.32-1.57-3.14-2.68-5.22-3.06-.36,.52-.96,.86-1.63,.86s-1.27-.34-1.63-.86c-2.08,.39-3.9,1.5-5.22,3.06,.26,.58,.25,1.27-.08,1.87-.34,.59-.92,.94-1.54,1-.34,.96-.53,1.99-.53,3.07s.19,2.11,.53,3.07c.62,.06,1.21,.41,1.54,1,.34,.59,.34,1.29,.08,1.87,.78,.94,1.75,1.7,2.85,2.26v2.81" stroke="currentColor" fill="currentColor"></path>
-          <path d="M32,62h-3l-2-2H10v-24h4v18s12.15-3,18,8Z" stroke="currentColor" fill="currentColor"></path>
-          <path d="M50,54v-18h4v24h-17s-2,2-2,2h-3c5.85-11,18-8,18-8Z" stroke="currentColor" fill="currentColor"></path>
-          <path d="M32,62c-5.85-11-18-8-18-8v-21l6-2v19c6.63,0,12,5.37,12,12Z" stroke="currentColor" fill="currentColor"></path>
-          <path d="M44,31l6,2v21s-12.15-3-18,8c0-6.63,5.37-12,12-12V31Z" stroke="currentColor" fill="currentColor"></path>
-          <path d="M32,42c0-6.63-5.37-12-12-12v20c6.63,0,12,5.37,12,12,0-6.63,5.37-12,12-12V30c-6.63,0-12,5.37-12,12Z" stroke="currentColor" fill="currentColor"></path>
-          <circle cx="32" cy="11" r="5" stroke="currentColor" fill="currentColor"></circle>
-          <rect height="4" rx="1" ry="1" width="10" x="27" y="22" stroke="currentColor" fill="currentColor"></rect>
-        </svg>
-        
-      </div>
-      <h3 class="text-xl font-semibold mb-4">Invierte en innovación y crecimiento profesional</h3>
-      <p class="text-gray-400 text-sm">
-        Asegura el éxito continuo de tu carrera.
-      </p>
-    </div>
-
-    <div class="bg-gray-800 p-8 rounded-lg transition-all duration-300 hover:scale-105 group-hover:blur-sm hover:!blur-none">
-      <div class="mb-6">
-        <svg class="mx-auto text-blue-400 w-8 h-8" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M12 14V17M12 14C9.58104 14 7.56329 12.2822 7.10002 10M12 14C14.419 14 16.4367 12.2822 16.9 10M17 5H19.75C19.9823 5 20.0985 5 20.1951 5.01921C20.5918 5.09812 20.9019 5.40822 20.9808 5.80491C21 5.90151 21 6.01767 21 6.25C21 6.94698 21 7.29547 20.9424 7.58527C20.7056 8.77534 19.7753 9.70564 18.5853 9.94236C18.2955 10 17.947 10 17.25 10H17H16.9M7 5H4.25C4.01767 5 3.90151 5 3.80491 5.01921C3.40822 5.09812 3.09812 5.40822 3.01921 5.80491C3 5.90151 3 6.01767 3 6.25C3 6.94698 3 7.29547 3.05764 7.58527C3.29436 8.77534 4.22466 9.70564 5.41473 9.94236C5.70453 10 6.05302 10 6.75 10H7H7.10002M12 17C12.93 17 13.395 17 13.7765 17.1022C14.8117 17.3796 15.6204 18.1883 15.8978 19.2235C16 19.605 16 20.07 16 21H8C8 20.07 8 19.605 8.10222 19.2235C8.37962 18.1883 9.18827 17.3796 10.2235 17.1022C10.605 17 11.07 17 12 17ZM7.10002 10C7.03443 9.67689 7 9.34247 7 9V4.57143C7 4.03831 7 3.77176 7.09903 3.56612C7.19732 3.36201 7.36201 3.19732 7.56612 3.09903C7.77176 3 8.03831 3 8.57143 3H15.4286C15.9617 3 16.2282 3 16.4339 3.09903C16.638 3.19732 16.8027 3.36201 16.901 3.56612C17 3.77176 17 4.03831 17 4.57143V9C17 9.34247 16.9656 9.67689 16.9 10" 
-                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-        </svg>        
-      </div>
-      <h3 class="text-xl font-semibold mb-4">Para quienes buscan marcar la diferencia</h3>
-      <p class="text-gray-400 text-sm">
-        Avanza hacia el futuro de la odontología
-      </p>
-    </div>
-  </div>
-  <h2 class="text-md font-semibold tracking-wide text-[#AAB2C0] mb-4 text-center pt-8">      
-    Si estás dispuesto a invertir en ti mismo y en tu futuro,<br> esta estancia es la oportunidad perfecta para dar el salto hacia una odontología con transformación digital.
-</h2>
-
-</section>
 
   </div>
   
   
   <div id="opiniones">
     <div class=" py-20">
-      <div class="max-w-6xl mx-auto px-4">
+      <div class="max-w-7xl mx-auto px-4">
         <h2 class="text-4xl font-bold text-white text-center mb-12">Comentarios de nuestra comunidad</h2>
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
           <!-- Carta 2 -->
           <div class="relative h-full group">
             <span class="absolute top-0 left-0 w-full h-full mt-1 ml-1 bg-gray-400 rounded-lg transition-transform duration-300 group-hover:translate-x-1 group-hover:translate-y-1"></span>
@@ -563,154 +567,130 @@
               </p>
             </div>
           </div>
-
-
         </div>
+        
       </div>
     </div>
   </div>
   
 
 <!-- Tutoriales gratis -->
+<div class="container mx-auto py-12 px-32">
+  <h2 class="text-blue- text-3xl font-bold text-center mb-8">Nuestro material</h2>
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+    <!-- Application Hosting -->
+    <a href="https://www.youtube.com/watch?v=FURzzapnbLo" target="_blank" rel="noopener noreferrer" class="bg-gray-800 p-6 rounded-2xl shadow-lg group block transform transition duration-300 hover:scale-105 hover:shadow-2xl">
+      <div class="flex justify-center mb-4">
+        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="text-blue-400 h-16 w-16">
+          <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+          <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+          <g id="SVGRepo_iconCarrier">
+            <path d="M22 11V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22H10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+            <g opacity="0.4">
+              <path d="M2.0293 8.5H21.9993" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+              <path d="M2.0293 15.5H11.9993" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+              <path d="M8.50977 21.9897V2.00977" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+              <path d="M15.5098 11.9897V2.00977" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+            </g>
+            <path d="M18.7304 14.6701L14.5804 18.82C14.4204 18.98 14.2704 19.29 14.2304 19.51L14.0004 21.1C13.9204 21.67 14.3204 22.08 14.8904 21.99L16.4804 21.76C16.7004 21.73 17.0104 21.5701 17.1704 21.4101L21.3204 17.26C22.0304 16.55 22.3704 15.7101 21.3204 14.6601C20.2804 13.6201 19.4504 13.9501 18.7304 14.6701Z" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M18.1406 15.2598C18.4906 16.5198 19.4806 17.4997 20.7406 17.8597" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+          </g>
+        </svg>
+      </div>
+      <h2 class="text-lg font-semibold mb-2">Cómo Activar Rejilla y Regla en exocad</h2>
+      <p class="text-sm text-gray-400 mb-4">Aprende paso a paso cómo habilitar la rejilla y la regla en exocad para mejorar tu precisión y flujo de trabajo en diseño dental.</p>
+      <span class="text-blue-400 hover:underline flex items-center">
+        Ver
+        <svg class="ml-2 h-4 w-4 text-blue-400 fill-none stroke-current transition group-hover:translate-x-[2px] group-hover:opacity-100" viewBox="0 0 10 10" aria-hidden="true">
+          <path class="opacity-0 group-hover:opacity-100 transition" d="M0 5h7"></path>
+          <path class="transition group-hover:translate-x-[2px]" d="M1 1l4 4-4 4"></path>
+        </svg>
+      </span>
+    </a>
+    
+    
+    <a href="https://www.youtube.com/watch?v=YtFmF59PycU" target="_blank" rel="noopener noreferrer" class="bg-gray-800 p-6 rounded-2xl shadow-lg group block transform transition duration-300 hover:scale-105 hover:shadow-2xl">
+      <div class="flex justify-center mb-4">
+        <svg viewBox="0 0 1024 1024" class="h-16 w-16 text-blue-400" version="1.1" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+          <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+          <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+          <g id="SVGRepo_iconCarrier">
+            <path d="M689.1 462.3c10.5 10.5 24.6 16.2 39.5 16.2s29-5.8 39.5-16.2l116.1-115.4c10.5-10.5 16.3-24.4 16.3-39.3 0-14.9-5.8-28.8-16.3-39.3L761 145.9c-21.1-20.9-57.9-20.9-79 0L566 261.3c-10.5 10.5-16.3 24.4-16.3 39.3s5.8 28.8 16.3 39.3l123.1 122.4z m-89.3-167.4l116.1-115.4c2-2 4.4-2.3 5.6-2.3 1.2 0 3.6 0.3 5.6 2.3L850.3 302c2 2 2.3 4.4 2.3 5.6 0 1.2-0.3 3.6-2.3 5.6l-116 115.4c-2 2-4.4 2.3-5.6 2.3-1.2 0-3.6-0.3-5.6-2.3L599.8 306.2c-2-2-2.3-4.4-2.3-5.6s0.3-3.7 2.3-5.7zM316.1 588.4c-21.1-20.9-58-20.9-79 0l-15.3 15.2c-15.3 15.3-31.5 42.4-37.5 63.1l-51.1 174.7c-4.3 14.6-2.4 28.2 5.3 38.4 7 9.3 18.2 14.6 30.7 14.6 5 0 10.3-0.8 15.6-2.5l182.4-56.1c20.6-6.3 47.7-22.6 62.9-37.7l9-8.9c10.5-10.5 16.3-24.4 16.3-39.3 0-14.9-5.8-28.8-16.3-39.3l-123-122.2z m89.2 167.2l-9 8.9c-9.6 9.6-30.2 21.9-43.2 25.9L244 823.9l-41.3-49.5 27.6-94.3c3.8-12.9 15.9-33.3 25.4-42.7l15.3-15.2c2-2 4.4-2.3 5.6-2.3 1.2 0 3.6 0.3 5.6 2.3l123 122.3c2 2 2.3 4.4 2.3 5.6 0.1 1.2-0.2 3.6-2.2 5.5zM324 145.9c-21.1-20.9-57.9-20.9-79 0L121.9 268.3c-10.5 10.5-16.3 24.4-16.3 39.3 0 14.9 5.8 28.8 16.3 39.3l560.2 557c10.5 10.5 24.6 16.2 39.5 16.2 14.9 0 29-5.8 39.5-16.2l123.2-122.5c10.5-10.5 16.3-24.4 16.3-39.3 0-14.9-5.8-28.8-16.3-39.3L324 145.9z"></path>
+          </g>
+        </svg>
+      </div>
+      <h2 class="text-lg font-semibold mb-2">Diseño de Cara Palatina en Incisivo Central Superior</h2>
+      <p class="text-sm text-gray-400 mb-4">Domina el diseño de la cara palatina del incisivo central superior con este tutorial detallado en exocad.</p>
+      <div class="text-blue-400 hover:underline flex items-center">
+        Ver
+        <svg class="ml-2 h-4 w-4 text-blue-400 fill-none stroke-current transition group-hover:translate-x-[3px] group-hover:opacity-100" viewBox="0 0 10 10" aria-hidden="true">
+          <path class="opacity-0 group-hover:opacity-100 transition" d="M0 5h7"></path>
+          <path class="transition group-hover:translate-x-[3px]" d="M1 1l4 4-4 4"></path>
+        </svg>
+      </div>
+    </a>
+
+    <a href="https://www.youtube.com/watch?v=JKwWUkPeBnk" target="_blank" rel="noopener noreferrer" class="bg-gray-800 p-6 rounded-2xl shadow-lg group block transform transition duration-300 hover:scale-105 hover:shadow-2xl">
+      <div class="flex justify-center mb-4">
+        <div class="grid gap-1">
+          <svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" class="h-16 w-16 text-blue-400">
+            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+            <g id="SVGRepo_iconCarrier">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M0 4C1.65685 4 3 2.65685 3 1H5C5 2.65685 6.34315 4 8 4C9.65685 4 11 2.65685 11 1H13C13 2.65685 14.3431 4 16 4V6C14.8744 6 13.8357 5.62805 13 5.00036V10H16V12H13V15H11V12H5V15H3V12H0V10H3V5.00037C2.16434 5.62806 1.12561 6 0 6V4ZM9 5.89998C9.73888 5.75 10.4186 5.43708 11 5.00037V10H9V5.89998ZM7 5.89998C6.26112 5.75 5.58141 5.43708 5 5.00037V10H7V5.89998Z" fill="currentColor"></path>
+            </g>
+          </svg>
+        </div>
+      </div>
+      <h2 class="text-lg font-semibold mb-2">No aparece la opción de Dividir Puente en exocad?</h2>
+      <p class="text-sm text-gray-400 mb-4">Descubre cómo solucionar el problema cuando no aparece la opción de "Dividir Puente" en exocad.</p>
+      <div class="text-blue-400 hover:underline flex items-center">
+        Ver
+        <svg class="ml-2 h-4 w-4 text-blue-400 fill-none stroke-current transition group-hover:translate-x-[3px] group-hover:opacity-100" viewBox="0 0 10 10" aria-hidden="true">
+          <path class="opacity-0 group-hover:opacity-100 transition" d="M0 5h7"></path>
+          <path class="transition group-hover:translate-x-[3px]" d="M1 1l4 4-4 4"></path>
+        </svg>
+      </div>
+    </a>
+  </div>
   
-<div id="material" class="mx-auto max-w-screen-lg">
-  <!-- Tutoriales Gratis -->
-  <div class="py-10">
-    <h2 class="text-blue- text-3xl font-bold text-center">TUTORIALES GRATIS!</h2>
-  </div>
-  <div class="grid grid-cols-1 sm:grid-cols-3 gap-y-6 gap-x-2 px-4 justify-items-center">
-    <!-- Tarjeta 1 -->
-    <div class="bg-white rounded-lg shadow-2xl overflow-hidden w-[220px] flex flex-col items-center transform hover:scale-105">
-      <a href="https://www.youtube.com/watch?v=FURzzapnbLo" target="_blank" rel="noopener noreferrer">
-        <div class="flex items-center justify-center h-[140px]">
-          <img src="./img/tutoriales/2tiposActivacion.png" alt="Tutorial 1" class="w-[180px] h-[120px] object-cover">
-        </div>
-        <div class="p-2">
-          <p class="text-center text-black font-semibold text-sm">2 tipos Activación Rejilla</p>
-        </div>
-      </a>
-    </div>
-    <!-- Tarjetas adicionales (ocultas en móviles) -->
-    <div class="bg-white rounded-lg shadow-2xl overflow-hidden w-[220px]  flex-col items-center transform hover:scale-105 hidden sm:block extra-tutorial">
-      <a href="https://www.youtube.com/watch?v=YtFmF59PycU" target="_blank" rel="noopener noreferrer">
-        <div class="flex items-center justify-center h-[140px]">
-          <img src="./img/tutoriales/palatine_incisivo.png" alt="Tutorial 2" class="w-[180px] h-[120px] object-cover">
-        </div>
-        <div class="p-2">
-          <p class="text-center text-black font-semibold text-sm">Aprende a diseñar cara palatina incisivo central</p>
-        </div>
-      </a>
-    </div>
-    <div class="bg-white rounded-lg shadow-2xl overflow-hidden w-[220px]  flex-col items-center transform hover:scale-105 hidden sm:block extra-tutorial">
-      <a href="https://www.youtube.com/watch?v=JKwWUkPeBnk" target="_blank" rel="noopener noreferrer">
-        <div class="flex items-center justify-center h-[140px]">
-          <img src="./img/tutoriales/dividirpuente.png" alt="Tutorial 3" class="w-[180px] h-[120px] object-cover">
-        </div>
-        <div class="p-2">
-          <p class="text-center text-black font-semibold text-sm">Como aparecer Dividir Puente</p>
-        </div>
-      </a>
-    </div>
-    <div class="bg-white rounded-lg shadow-2xl overflow-hidden w-[220px]  flex-col items-center transform hover:scale-105 hidden sm:block extra-tutorial">
-      <a href="https://www.youtube.com/watch?v=5WOKwHoU3Gc" target="_blank" rel="noopener noreferrer">
-        <div class="flex items-center justify-center h-[140px]">
-          <img src="./img/tutoriales/cambiarColor.png" alt="Tutorial 4" class="w-[180px] h-[120px] object-cover">
-        </div>
-        <div class="p-2">
-          <p class="text-center text-black font-semibold text-sm">Cambiar color anatomías</p>
-        </div>
-      </a>
-    </div>
-    <div class="bg-white rounded-lg shadow-2xl overflow-hidden w-[220px]  flex-col items-center transform hover:scale-105 hidden sm:block extra-tutorial">
-      <a href="https://www.youtube.com/watch?v=7kNTvOT68xo" target="_blank" rel="noopener noreferrer">
-        <div class="flex items-center justify-center h-[140px]">
-          <img src="./img/tutoriales/gestorBibliotecas.png" alt="Tutorial 5" class="w-[180px] h-[120px] object-cover">
-        </div>
-        <div class="p-2">
-          <p class="text-center text-black font-semibold text-sm">Gestor de Bibliotecas exocad</p>
-        </div>
-      </a>
-    </div>
-    <div class="bg-white rounded-lg shadow-2xl overflow-hidden w-[220px]  flex-col items-center transform hover:scale-105 hidden sm:block extra-tutorial">
-      <a href="https://www.youtube.com/watch?v=1kBESanj8SA" target="_blank" rel="noopener noreferrer">
-        <div class="flex items-center justify-center h-[140px]">
-          <img src="./img/tutoriales/extraccion.png" alt="Tutorial 6" class="w-[180px] h-[120px] object-cover">
-        </div>
-        <div class="p-2">
-          <p class="text-center text-black font-semibold text-sm">Extracción Virtual</p>
-        </div>
-      </a>
-    </div>
-  </div>
-  <!-- Botón Mostrar Más para Tutoriales -->
-  <div class="text-center mt-4">
-    <button id="show-more-tutorials" class="bg-blue-400 text-white py-2 px-4 rounded-lg sm:hidden">
-      Mostrar más
-    </button>
+  <div class="flex justify-center mt-8">
+    <a href="https://infinityshapeslibraries.com/" target="_blank" rel="noopener noreferrer" 
+       class="bg-black p-6 rounded-2xl shadow-lg group block transform transition duration-300 hover:shadow-2xl w-full max-w-lg hover-rotate-shake">
+      <div class="flex justify-center mb-4">
+        <!-- Ajustar el tamaño del SVG -->
+        <svg fill="#60A5FA" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="h-16 w-16">
+          <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+          <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+          <g id="SVGRepo_iconCarrier">
+            <path d="M6,23H18a3,3,0,0,0,3-3V4a3,3,0,0,0-3-3H6A3,3,0,0,0,3,4V20A3,3,0,0,0,6,23ZM19,9.5v5h-.132L17.9,12.553a1,1,0,0,0-1.79.894l.527,1.053H15V12a1,1,0,0,0-2,0v2.5H12V13a1,1,0,0,0-2,0v1.5H5v-5ZM18,21H14V19a1,1,0,0,0-2,0v2H11V19a1,1,0,0,0-2,0v2H8V20a1,1,0,0,0-2,0v1a1,1,0,0,1-1-1V16.5H19V20A1,1,0,0,1,18,21ZM6,3H18a1,1,0,0,1,1,1V7.5H14.868L13.9,5.553a1,1,0,1,0-1.79.894L12.632,7.5H11V5A1,1,0,0,0,9,5V7.5H8V6A1,1,0,0,0,6,6V7.5H5V4A1,1,0,0,1,6,3Z"></path>
+          </g>
+        </svg>
+      </div>
+      <h2 class="text-lg font-semibold mb-2">Explora Nuestras Librerías Destacadas</h2>
+      <p class="text-sm text-gray-400 mb-4">Accede  las librerías más exclusivas para tus diseños dentales y optimiza tu flujo de trabajo con InfinityShapes.</p>
+      <div class="text-blue-400 hover:underline flex items-center">
+        Comprar
+        <svg class="ml-2 h-4 w-4 text-blue-400 fill-none stroke-current transition group-hover:translate-x-[3px] group-hover:opacity-100" viewBox="0 0 10 10" aria-hidden="true">
+          <path class="opacity-0 group-hover:opacity-100 transition" d="M0 5h7"></path>
+          <path class="transition group-hover:translate-x-[3px]" d="M1 1l4 4-4 4"></path>
+        </svg>
+      </div>
+    </a>
   </div>
 
-  <!-- Librerías de Anatomías -->
-  <div class="py-10 ">
-    <h2 class="text-blue- text-3xl font-bold text-center">LIBRERÍAS DE ANATOMÍAS</h2>
-  </div>
-  <div class="grid grid-cols-1 sm:grid-cols-4 gap-y-10 gap-x-6 px-4 justify-items-center pb-14 z-20">
-    <!-- Tarjeta 1 -->
-    <div class="bg-white rounded-lg shadow-2xl overflow-hidden w-[220px] flex flex-col items-center transform hover:scale-105">
-      <a href="https://infinityshapeslibraries.com/producto/infinity/" target="_blank" rel="noopener noreferrer">
-        <div class="flex items-center justify-center h-[140px]">
-          <img src="./img/librerias/infinity.jpg" alt="Infinity" class="w-[180px] h-[120px] object-cover">
-        </div>
-        <div class="p-2">
-          <p class="text-center text-black font-semibold text-sm">Infinity</p>
-        </div>
-      </a>
-    </div>
-    <!-- Tarjetas adicionales (ocultas en móviles) -->
-    <div class="bg-white rounded-lg shadow-2xl overflow-hidden w-[220px]  flex-col items-center transform hover:scale-105 hidden sm:block extra-library">
-      <a href="https://infinityshapeslibraries.com/producto/vision/" target="_blank" rel="noopener noreferrer">
-        <div class="flex items-center justify-center h-[140px]">
-          <img src="./img/librerias/Vision.jpg" alt="Vision" class="w-[180px] h-[120px] object-cover">
-        </div>
-        <div class="p-2">
-          <p class="text-center text-black font-semibold text-sm">Vision</p>
-        </div>
-      </a>
-    </div>
-    <div class="bg-white rounded-lg shadow-2xl overflow-hidden w-[220px]  flex-col items-center transform hover:scale-105 hidden sm:block extra-library">
-      <a href="https://infinityshapeslibraries.com/producto/mauricio-avendano-2-0/" target="_blank" rel="noopener noreferrer">
-        <div class="flex items-center justify-center h-[140px]">
-          <img src="./img/librerias/MauricioAv.png" alt="Mauricio Avendaño 2.0" class="w-[180px] h-[120px] object-cover">
-        </div>
-        <div class="p-2">
-          <p class="text-center text-black font-semibold text-sm">Mauricio Avendaño 2.0</p>
-        </div>
-      </a>
-    </div>
-    <div class="bg-white rounded-lg shadow-2xl overflow-hidden w-[220px]  flex-col items-center transform hover:scale-105 hidden sm:block extra-library">
-      <a href="https://infinityshapeslibraries.com/producto/patronus/" target="_blank" rel="noopener noreferrer">
-        <div class="flex items-center justify-center h-[140px]">
-          <img src="./img/librerias/Patronus.png" alt="Patronus" class="w-[180px] h-[120px] object-cover">
-        </div>
-        <div class="p-2">
-          <p class="text-center text-black font-semibold text-sm">Patronus</p>
-        </div>
-      </a>
-    </div>
-  </div>
-  <!-- Botón Mostrar Más para Librerías -->
-  <div class="text-center mt-4">
-    <button id="show-more-libraries" class="bg-blue-400 text-white mb-6 py-2 px-4 rounded-lg sm:hidden">
-      Mostrar más
-    </button>
-  </div>
 </div>
 
 
 
-<div class="relative max-w-5xl mx-auto text-center px-4 sm:px-6 lg:px-8 my-28">
+
+
+
+
+<div class="relative max-w-5xl mx-auto text-center px-4 sm:px-6 lg:px-8 my-56" id="podcast">
   <!-- Circular Design -->
   <div class="absolute inset-0 flex justify-center items-center mb-44">
-    <div class="w-[500px] h-[500px] rounded-full border-[2px] border-gray-600 animate-ping-slow -z-10"></div>
+    <div class="w-[400px] h-[400px] rounded-full border-[2px] border-gray-600 animate-ping-slow -z-10"></div>
     <div class="w-[600px] h-[600px] rounded-full border-[2px] border-gray-700 absolute opacity-50 "></div>
   </div>
   <!-- Content -->
@@ -737,7 +717,7 @@
     <!-- Play Button -->
     <div class="mt-8 opacity-0 transition-opacity duration-700 observer-fade">
       <a href="https://open.spotify.com/show/3ETlxEfQFOQ9DcRLWbh4py?si=2y8CdMnpQvSOQ688yFLnpg&nd=1&dlsi=0d14b4bf153f4870" target="_blank" rel="noopener noreferrer">
-        <button class="flex items-center space-x-2 bg-blue-600 hover:bg-blue-500 px-6 py-3 rounded-full text-lg font-semibold">
+        <button class="flex items-center space-x-2 bg-blue-600 hover:bg-blue-500 px-6 py-3 rounded-full text-lg font-semibold hover:scale-105">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
