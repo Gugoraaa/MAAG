@@ -10,7 +10,7 @@
 </head >
 <body class="bg-slate-950 text-white min-h-screen bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:14px_24px]">
   
-  <nav class="-top-1 left-0 w-full z-50 shadow-sm fixed backdrop-blur bg-black/60 py-2">
+  <nav class="-top-1 left-0 w-full z-50 shadow-sm fixed backdrop-blur bg-black/60 py-2 xl:px-32 2xl:px-0">
     <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
       <div class="relative flex h-16 items-center justify-between">
         <!-- Mobile menu button -->
@@ -149,27 +149,27 @@
   
 
 
-  <div class="flex items-center justify-center my-60" id="main">
-    <div class="relative w-full max-w-7xl text-left p-8 flex flex-col lg:flex-row items-center lg:items-start gap-16">
+  <div class="flex items-center justify-center my-44 px-10 lg:px-20 xl:mt-44 xl:mb-20 xl:px-40 2xl:px-44 2xl:py-10 2xl:ml-12" id="main">
+    <div class="relative w-full max-w-7xl text-left flex flex-col lg:flex-row items-center lg:items-start ">
       <!-- Texto -->
-      <div class="flex-1">
-        <h1 class="text-white lg:text-8xl sm:text-5xl font-bold mb-20">
+      <div class="flex-1 text-center lg:text-left">
+        <h1 class="text-white font-bold text-4xl text-5xl md:text-6xl xl:mb-10 xl:text-7xl 2xl:mb-20 2xl:text-8xl">
           <span class="text-blue-400">Esta</span>ncia <br>
           <span class="text-blue-400">Digital</span>Dentistry
         </h1>
-        <p class="text-gray-300 text-lg sm:text-xl">
+        <p class="text-gray-300 text-base sm:text-lg md:text-xl mt-4 2xl:ml-2">
           Nuestro programa <span class="text-blue-400">más completo</span> de <span class="text-blue-400">Odontología Digital!</span>
         </p>
-        <p class="text-gray-300 text-lg sm:text-xl mb-6">
+        <p class="text-gray-300 text-base sm:text-lg md:text-xl mb-6 2xl:ml-2">
           ¿Estás listo para llevar tu odontología al siguiente nivel?
         </p>
-        <div class="flex flex-col sm:flex-row gap-4">
+        <div class="flex flex-col sm:flex-row gap-4 justify-center items-center lg:justify-start 2xl:ml-2">
           <a
             href="https://api.whatsapp.com/message/EYD5PVJNW5K2A1?autoload=1&app_absent=0"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <button class="bg-white text-black px-6 py-3 rounded-md font-bold text-lg hover:bg-gray-100 transition-all flex items-center group">
+            <button class="bg-white text-black px-6 py-3 rounded-md font-bold text-lg hover:bg-gray-100 transition-all flex group">
               Inscríbete aquí
               <svg
                 class="ml-2 h-5 w-5 text-black transition-transform group-hover:translate-x-2"
@@ -195,7 +195,7 @@
         <img
           src="./img/molde2-unscreen.gif"
           alt="Descripción del GIF"
-          class="w-full max-w-5xl object-contain"
+          class="w-full max-w-xs md:max-w-lg lg:max-w-lg 2xl:max-w-5xl object-contain"
         />
       </div>
     </div>
@@ -206,70 +206,74 @@
   
   
   
-
-
-  <div id="Nosotros" class="pt-10">
-    <div class="max-w-7xl mx-auto px-6 lg:p-8 grid grid-cols-2 grid-rows-2 gap-5 h-1/2">
-      <!-- Elemento 1 (Solo Foto, en la parte superior izquierda) -->
-      <div class="rounded-3xl shadow-lg transition-all duration-300 transform hover:scale-105 h-full w-full">
-        <img src="./img/mauri.jpeg" alt="Mauricio Avendaño trabajando" class="rounded-xl w-full h-full object-cover">
-      </div>
   
-      <!-- Elemento 3 (Contenido Extendido, toda la columna derecha) -->
-      <div class="bg-gray-800 py-8 px-16 rounded-3xl shadow-lg row-span-2 transition-all duration-300 transform hover:scale-105 max-h-max">
-        <h2 class="text-4xl font-bold text-white mb-10">Sé parte de la evolución digital</h2>
-        <p class="text-xl text-white mb-6">
+  
+  
+  
+
+
+  <div id="Nosotros" class=" mx-auto md:h-[90vh] ">
+    <div class="max-w-7xl grid grid-cols-1 px-10 md:grid-cols-2 h-full mx-auto gap-4 md:grid-rows-2 mb-20 md:py-10 md:gap-4 md:px-10 xl:px-40 xl:gap-5 2xl:gap-6 2xl:px-8">
+      <!-- Elemento 1 (Solo Foto, en la parte superior izquierda) -->
+      <div class="order-1 rounded-lg shadow-lg transition-all duration-300 transform hover:scale-105 h-full w-full">
+        <img src="./img/mauri.jpeg" alt="Mauricio Avendaño trabajando" 
+             class="rounded-xl w-full h-full object-cover" 
+             style="object-position: center top">
+      </div>
+      
+  
+      <!-- Elemento 2 (Contenido Extendido, toda la columna derecha) -->
+      <div class="order-3 md:order-2 bg-gray-800 rounded-xl shadow-lg row-span-2 transition-all duration-300 transform hover:scale-105 max-h-max py-6 px-6 md:pb-0 md:px-8 md:py-6 md:min-h-[69vh] xl:px-12 xl:py-6 2xl:px-14 2xl:py-10">
+        <h2 class="font-bold text-white text-xl mb-4 md:text-2xl md:mb-4 xl:mb-8 2xl:mb-11 2xl:text-4xl">Sé parte de la <br> evolución digital</h2>
+        <p class=" text-white mb-4 md:mb-4 xl:mb-4 xl:mb-6 xl:text-base 2xl:text-xl">
           Aprende a implementar soluciones digitales que te permitan trabajar de manera más eficiente.
         </p>
-        <p class="text-xl leading-relaxed text-white">
-          ¡Gana tiempo y dedícalo a lo que realmente disfrutas!
-        </p>
-        <blockquote class="mt-6 mb-10 text-xl font-bold text-white">
+        <blockquote class="font-bold text-white mb-4 md:mb-6 2xl:mb-10 xl:mt-3 xl:text-base xl:mb-6 xl:mb-10 2xl:mb-8 2xl:text-xl">
           "No todos están listos para el verdadero cambio."
         </blockquote>
-        <ul class="text-left mt-6">
-          <li class="text-white text-lg mb-8 flex items-start">
-            <span class="mr-2 mt-1">
+        <ul class="text-left xl:text-sm 2xl:text-lg">
+          <li class="text-white mb-2 xl:mb-4  flex items-start">
+            <span class="mr-2 2xl:mt-1">
               <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
               </svg>
             </span>
             <p>Desde cero a <span class="font-bold">experto digitaldentistry</span></p>
           </li>
-          <li class="text-white text-lg mb-8 flex items-start">
-            <span class="mr-2 mt-1">
+          <li class="text-white mb-2 xl:mb-4 flex items-start">
+            <span class="mr-2 2xl:mt-1">
               <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
               </svg>
             </span>
             <p>Desde la <span class="font-bold">comodidad</span> de tu consultorio-lab, te vas a ahorrar el avión, hotel, comida y, lo mejor, ¡seguirás trabajando y estudiando al mismo tiempo!</p>
           </li>
-          <li class="text-white text-lg mb-8 flex items-start">
-            <span class="mr-2 mt-1">
+          <li class="text-white  mb-2 xl:mb-4  flex items-start">
+            <span class="mr-2 2xl:mt-1">
               <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
               </svg>
             </span>
             <p>Acceso a <span class="font-bold">grupo VIP</span> donde estarás rodeado de personas de diferentes países empujándose juntos a crecer.</p>
           </li>
-          <li class="text-white text-lg mb-8 flex items-start">
-            <span class="mr-2 mt-1">
+          <li class="text-white  mb-2 xl:mb-4  flex items-start">
+            <span class="mr-2 2xl:mt-1">
               <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
               </svg>
             </span>
             <p><span class="font-bold">Asesoría 24hrs</span> diaria por 6 meses.</p>
           </li>
-          <li class="text-white text-lg mb-8 flex items-start">
-            <span class="mr-2 mt-1">
+          <li class="text-white  mb-2 xl:mb-4  flex items-start">
+            <span class="mr-2 2xl:mt-1">
               <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
               </svg>
             </span>
             <p>Artículos traducidos al español JPD. <span class="font-bold">Coffee-Lecture:</span> cápsulas de artículos científicos explicados fácilmente.</p>
           </li>
-          <li class="text-white text-lg mb-8 flex items-start">
-            <span class="mr-2 mt-1">
+          <li class="text-white  mb-2 xl:mb-4  flex items-start">
+            <span class="mr-2 2xl:mt-1">
               <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
               </svg>
@@ -279,27 +283,27 @@
         </ul>
       </div>
   
-      <!-- Elemento 2 (Descripción, debajo de la foto) -->
-      <div class="bg-gray-800 py-8 px-14 shadow-lg rounded-lg transition-all duration-300 transform hover:scale-105 h-max">
-        <h2 class="text-4xl font-extrabold text-white mb-6">
-          Hola, soy <span class="text-blue-400">Mauricio Avendaño</span>
+      <!-- Elemento 3 (Descripción, debajo de la foto) -->
+      <div class="order-2 md:order-3 bg-gray-800 shadow-lg rounded-lg transition-all duration-300 transform hover:scale-105 h-max py-6 px-6 md:py-5 md:px-6 xl:py-8 xl:px-10 2xl:px-14 2xl:py-9">
+        <h2 class="font-extrabold text-white mb-6 text-2xl 2xl:text-4xl">
+          Hola, soy <br> <span class="text-blue-400">Mauricio Avendaño</span>
         </h2>
-        <p class="text-white text-lg leading-relaxed">
+        <p class="text-white leading-relaxed xl:text-base 2xl:text-lg">
           "Todos comenzamos siendo principantes.. mi misión es impulsarte en tu crecimiento profesional y personal con herramientas digitales, 
           pero lo más importante que disfrutemos cada momento del recorrido."
         </p>
-        <p class="text-white text-lg leading-relaxed mt-4">
+        <p class="text-white leading-relaxed mt-4 xl:text-sm 2xl:text-lg">
           Y que no se te olvide, <span class="font-bold">¡disfruta el momento!</span>
         </p>
       </div>
     </div>
   </div>
   
-  <div id="bio" class="mx-auto px-6 py-16">  
+  <div id="bio" class="mx-auto px-6 px-10 pt-20 md:px-10 xl:pt-8 xl:pb-16 2xl:pt-16 2xl:pb-32">  
     <div class="text-center mb-12">
-      <h1 class="text-3xl md:text-4xl font-bold">Es un honor formar parte del grupo de Bio-Emulation</h1>
+      <h1 class="text-3xl md:text-4xl font-bold">Es un honor formar parte del <br> grupo de Bio-Emulation</h1>
     </div>
-    <div class="grid grid-cols-1 sm:grid-cols-2 gap-5 max-w-4xl mx-auto">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-5 max-w-4xl mx-auto">
       <!-- Panel 1 -->
       <div class="relative group bg-gray-200 rounded-lg overflow-hidden shadow-lg border border-gray-800">
         <img src="./img/bio/bio1.png" alt="bio1" class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105">
@@ -315,18 +319,18 @@
   
   
 
-  <section class="max-w-7xl mx-auto px-6 py-16">
+  <section class="max-w-7xl mx-auto px-8 md:px-10 pt-24 pb:4 md:py-20 md:px-10 xl:px-40 2xl:px-0">
     <!-- Header -->
-    <div class="text-center mb-12">
+    <div class="text-center mb-6 md:mb-12">
       <h2 class="text-sm font-semibold tracking-wide text-blue-400 uppercase mb-4">Avanza hacia el futuro de la odontología</h2>
       <h1 class="text-3xl md:text-4xl font-bold">¿Para quién es la estancia digital dentistry?</h1>
     </div>
 
     <!-- Features -->
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center group relative">
+    <div class="grid grid-cols-2 px-2 gap-4 md:grid-cols-3 md:gap-4 xl:gap-6 2xl:gap-8 text-center group relative">
       <!-- Reliably Scalable -->
-      <div class="bg-gray-800 p-8 rounded-lg transition-all duration-300 hover:scale-105 group-hover:blur-sm hover:!blur-none">
-        <div class="mb-6">
+      <div class="bg-gray-800 p-4 xl:p-6 2xl:p-8 rounded-lg transition-all duration-300 hover:scale-105 group-hover:blur-sm hover:!blur-none">
+        <div class="mb-2 md:mb-4 xl:mb-6">
           <svg class="mx-auto text-blue-400 w-8 h-8" viewBox="0 0 24 24" role="img" xmlns="http://www.w3.org/2000/svg" aria-labelledby="rotateIconTitle" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter">
             <title id="rotateIconTitle">Rotate</title>
             <path d="M22 12l-3 3-3-3"></path>
@@ -339,56 +343,56 @@
                 
           
         </div>
-        <h3 class="text-xl font-semibold mb-4">Revoluciona tu práctica odontológica</h3>
+        <h3 class="text-sm md:text-base xl:text-xl font-semibold mb-4">Revoluciona tu práctica odontológica</h3>
         <p class="text-gray-400 text-sm">
           Moderniza tus herramientas y métodos para brindar la mejor atención.
         </p>
       </div>
 
       
-      <div class="bg-gray-800 p-8 rounded-lg transition-all duration-300 hover:scale-105 group-hover:blur-sm hover:!blur-none">
-        <div class="mb-6">
+      <div class="bg-gray-800 p-4 xl:p-6 2xl:p-8 rounded-lg transition-all duration-300 hover:scale-105 group-hover:blur-sm hover:!blur-none">
+        <div class="mb-2 md:mb-4 xl:mb-6">
           <svg class="mx-auto text-blue-400 w-8 h-8" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M12 7V12H15M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" 
                   stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
           </svg>
           
         </div>
-        <h3 class="text-xl font-semibold mb-4">Optimiza tu tiempo y aumenta tu productividad</h3>
+        <h3 class="text-sm md:text-base xl:text-xl font-semibold mb-4">Optimiza tu tiempo y aumenta tu productividad</h3>
         <p class="text-gray-400 text-sm">
           Aprovecha la tecnología para hacer más en menos tiempo.
         </p>
       </div>
 
      
-      <div class="bg-gray-800 p-8 rounded-lg transition-all duration-300 hover:scale-105 group-hover:blur-sm hover:!blur-none">
-        <div class="mb-6">
+      <div class="bg-gray-800 p-4 xl:p-6 2xl:p-8 rounded-lg transition-all duration-300 hover:scale-105 group-hover:blur-sm hover:!blur-none">
+        <div class="mb-2 md:mb-4 xl:mb-6">
           <svg class="mx-auto text-blue-400 w-8 h-8" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M678.584675 765.172506v157.995691l75.697852 31.505938V723.768586a429.379161 429.379161 0 0 1-75.697852 41.40392zM269.717473 723.768586V953.098138l75.697852-31.505938v-156.419694a429.309162 429.309162 0 0 1-75.697852-41.40392zM511.999 798.78444a428.955162 428.955162 0 0 1-105.993793-13.241974v238.457534L511.999 979.886086 617.992793 1023.998V785.542466A429.025162 429.025162 0 0 1 511.999 798.78444zM511.999 0C308.479398 0 142.903721 165.575677 142.903721 369.097279S308.479398 738.192558 511.999 738.192558s369.097279-165.575677 369.097279-369.097279S715.520602 0 511.999 0z m0 660.198711c-161.345685 0-292.611428-131.265744-292.611428-292.611429 0-161.347685 131.265744-292.613428 292.611428-292.613428s292.611428 131.265744 292.611428 292.613428c0 161.347685-131.263744 292.611428-292.611428 292.611429zM511.999 135.563735c-127.93575 0-232.021547 104.083797-232.021547 232.023547S384.06325 599.606829 511.999 599.606829s232.021547-104.083797 232.021547-232.021547c0-127.93775-104.083797-232.021547-232.021547-232.021547zM607.360814 502.999018L511.999 452.865115 416.639186 502.999018l18.211965-106.183793-77.14785-75.199853 106.617792-15.49397L511.999 209.509591l47.679907 96.611811 106.617792 15.49397-77.14785 75.199853 18.211965 106.183793z" 
                   stroke="currentColor" fill="currentColor"></path>
           </svg>        
         </div>
-        <h3 class="text-xl font-semibold mb-4">Ofrece tratamientos de alta precisión y calidad</h3>
+        <h3 class="text-sm md:text-base xl:text-xl font-semibold mb-4">Ofrece tratamientos de alta precisión y calidad</h3>
         <p class="text-gray-400 text-sm">
           Resalta tu experiencia con resultados excepcionales.
         </p>
       </div>
 
-      <div class="bg-gray-800 p-8 rounded-lg transition-all duration-300 hover:scale-105 group-hover:blur-sm hover:!blur-none">
-        <div class="mb-6">
+      <div class="bg-gray-800 p-4 xl:p-6 2xl:p-8 rounded-lg transition-all duration-300 hover:scale-105 group-hover:blur-sm hover:!blur-none">
+        <div class="mb-2 md:mb-4 xl:mb-6">
           <svg class="mx-auto text-blue-400 w-8 h-8" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M11.2691 4.41115C11.5006 3.89177 11.6164 3.63208 11.7776 3.55211C11.9176 3.48263 12.082 3.48263 12.222 3.55211C12.3832 3.63208 12.499 3.89177 12.7305 4.41115L14.5745 8.54808C14.643 8.70162 14.6772 8.77839 14.7302 8.83718C14.777 8.8892 14.8343 8.93081 14.8982 8.95929C14.9705 8.99149 15.0541 9.00031 15.2213 9.01795L19.7256 9.49336C20.2911 9.55304 20.5738 9.58288 20.6997 9.71147C20.809 9.82316 20.8598 9.97956 20.837 10.1342C20.8108 10.3122 20.5996 10.5025 20.1772 10.8832L16.8125 13.9154C16.6877 14.0279 16.6252 14.0842 16.5857 14.1527C16.5507 14.2134 16.5288 14.2807 16.5215 14.3503C16.5132 14.429 16.5306 14.5112 16.5655 14.6757L17.5053 19.1064C17.6233 19.6627 17.6823 19.9408 17.5989 20.1002C17.5264 20.2388 17.3934 20.3354 17.2393 20.3615C17.0619 20.3915 16.8156 20.2495 16.323 19.9654L12.3995 17.7024C12.2539 17.6184 12.1811 17.5765 12.1037 17.56C12.0352 17.5455 11.9644 17.5455 11.8959 17.56C11.8185 17.5765 11.7457 17.6184 11.6001 17.7024L7.67662 19.9654C7.18404 20.2495 6.93775 20.3915 6.76034 20.3615C6.60623 20.3354 6.47319 20.2388 6.40075 20.1002C6.31736 19.9408 6.37635 19.6627 6.49434 19.1064L7.4341 14.6757C7.46898 14.5112 7.48642 14.429 7.47814 14.3503C7.47081 14.2807 7.44894 14.2134 7.41394 14.1527C7.37439 14.0842 7.31195 14.0279 7.18708 13.9154L3.82246 10.8832C3.40005 10.5025 3.18884 10.3122 3.16258 10.1342C3.13978 9.97956 3.19059 9.82316 3.29993 9.71147C3.42581 9.58288 3.70856 9.55304 4.27406 9.49336L8.77835 9.01795C8.94553 9.00031 9.02911 8.99149 9.10139 8.95929C9.16534 8.93081 9.2226 8.8892 9.26946 8.83718C9.32241 8.77839 9.35663 8.70162 9.42508 8.54808L11.2691 4.41115Z" 
                   stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
           </svg>        
         </div>
-        <h3 class="text-xl font-semibold mb-4">Destácate en el mundo de la odontología</h3>
+        <h3 class="text-sm md:text-base xl:text-xl font-semibold mb-4">Destácate en el mundo de la odontología</h3>
         <p class="text-gray-400 text-sm">
           Sé un referente en innovación y profesionalismo.
         </p>
       </div>
 
-      <div class="bg-gray-800 p-8 rounded-lg transition-all duration-300 hover:scale-105 group-hover:blur-sm hover:!blur-none">
-        <div class="mb-6">
+      <div class="bg-gray-800 p-4 xl:p-6 2xl:p-8 rounded-lg transition-all duration-300 hover:scale-105 group-hover:blur-sm hover:!blur-none">
+        <div class="mb-2 md:mb-4 xl:mb-6">
           <svg class="mx-auto text-blue-400 w-8 h-8" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" fill="none">
             <path d="M36,22v-2.81c1.09-.55,2.06-1.32,2.85-2.26-.26-.58-.25-1.27,.08-1.87,.34-.59,.92-.94,1.54-1,.34-.96,.53-1.99,.53-3.07s-.19-2.11-.53-3.07c-.62-.06-1.21-.41-1.54-1-.34-.59-.34-1.29-.08-1.87-1.32-1.57-3.14-2.68-5.22-3.06-.36,.52-.96,.86-1.63,.86s-1.27-.34-1.63-.86c-2.08,.39-3.9,1.5-5.22,3.06,.26,.58,.25,1.27-.08,1.87-.34,.59-.92,.94-1.54,1-.34,.96-.53,1.99-.53,3.07s.19,2.11,.53,3.07c.62,.06,1.21,.41,1.54,1,.34,.59,.34,1.29,.08,1.87,.78,.94,1.75,1.7,2.85,2.26v2.81" stroke="currentColor" fill="currentColor"></path>
             <path d="M32,62h-3l-2-2H10v-24h4v18s12.15-3,18,8Z" stroke="currentColor" fill="currentColor"></path>
@@ -401,26 +405,26 @@
           </svg>
           
         </div>
-        <h3 class="text-xl font-semibold mb-4">Invierte en innovación y crecimiento profesional</h3>
+        <h3 class="text-sm md:text-base xl:text-xl font-semibold mb-4">Invierte en innovación y crecimiento profesional</h3>
         <p class="text-gray-400 text-sm">
           Asegura el éxito continuo de tu carrera.
         </p>
       </div>
 
-      <div class="bg-gray-800 p-8 rounded-lg transition-all duration-300 hover:scale-105 group-hover:blur-sm hover:!blur-none">
-        <div class="mb-6">
+      <div class="bg-gray-800 p-4 xl:p-6 2xl:p-8 rounded-lg transition-all duration-300 hover:scale-105 group-hover:blur-sm hover:!blur-none">
+        <div class="mb-2 md:mb-4 xl:mb-6">
           <svg class="mx-auto text-blue-400 w-8 h-8" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M12 14V17M12 14C9.58104 14 7.56329 12.2822 7.10002 10M12 14C14.419 14 16.4367 12.2822 16.9 10M17 5H19.75C19.9823 5 20.0985 5 20.1951 5.01921C20.5918 5.09812 20.9019 5.40822 20.9808 5.80491C21 5.90151 21 6.01767 21 6.25C21 6.94698 21 7.29547 20.9424 7.58527C20.7056 8.77534 19.7753 9.70564 18.5853 9.94236C18.2955 10 17.947 10 17.25 10H17H16.9M7 5H4.25C4.01767 5 3.90151 5 3.80491 5.01921C3.40822 5.09812 3.09812 5.40822 3.01921 5.80491C3 5.90151 3 6.01767 3 6.25C3 6.94698 3 7.29547 3.05764 7.58527C3.29436 8.77534 4.22466 9.70564 5.41473 9.94236C5.70453 10 6.05302 10 6.75 10H7H7.10002M12 17C12.93 17 13.395 17 13.7765 17.1022C14.8117 17.3796 15.6204 18.1883 15.8978 19.2235C16 19.605 16 20.07 16 21H8C8 20.07 8 19.605 8.10222 19.2235C8.37962 18.1883 9.18827 17.3796 10.2235 17.1022C10.605 17 11.07 17 12 17ZM7.10002 10C7.03443 9.67689 7 9.34247 7 9V4.57143C7 4.03831 7 3.77176 7.09903 3.56612C7.19732 3.36201 7.36201 3.19732 7.56612 3.09903C7.77176 3 8.03831 3 8.57143 3H15.4286C15.9617 3 16.2282 3 16.4339 3.09903C16.638 3.19732 16.8027 3.36201 16.901 3.56612C17 3.77176 17 4.03831 17 4.57143V9C17 9.34247 16.9656 9.67689 16.9 10" 
                   stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
           </svg>        
         </div>
-        <h3 class="text-xl font-semibold mb-4">Para quienes buscan marcar la diferencia</h3>
+        <h3 class="text-sm md:text-base xl:text-xl font-semibold mb-4">Para quienes buscan marcar la diferencia</h3>
         <p class="text-gray-400 text-sm">
           Avanza hacia el futuro de la odontología
         </p>
       </div>
     </div>
-    <h2 class="text-md font-semibold tracking-wide text-[#AAB2C0] mb-4 text-center pt-8">      
+    <h2 class="text-base font-semibold tracking-wide text-[#AAB2C0] mb-4 text-center pt-8">      
       Si estás dispuesto a invertir en ti mismo y en tu futuro,<br> esta estancia es la oportunidad perfecta para dar el salto hacia una odontología con transformación digital.
     </h2>
 
@@ -430,64 +434,62 @@
   
 
 
-  <div id="viajes" class="my-28">
-    <!-- Title -->
-    <div id="title" class="text-center md:pt-2 px-4 sm:px-12 md:px-32 lg:px-64">
-      <h1 class="text-white font-bold text-3xl sm:text-4xl md:text-4xl lg:text-4xl">
-        Destinos Inolvidables
-      </h1>
-    </div>
-  
-    <div class="max-w-6xl mt-1 mx-auto py-6 px-4 sm:px-8 md:px-12 md:mt-16 bg-gray-800 rounded-lg shadow-xl flex items-center justify-center">
-      <!-- Tab Navigation -->
-      <div class="flex flex-wrap justify-center space-x-2 sm:space-x-4 md:space-x-7">
-        <button class="tab active text-white px-4 sm:px-6 py-2 text-sm sm:text-lg bg-blue-400 ">
-          RD
-        </button>
-        <button class="tab text-white  px-4 sm:px-6 py-2 text-sm sm:text-lg">
-          PORTUGAL
-        </button>
-        <button class="tab text-white  px-4 sm:px-6 py-2 text-sm sm:text-lg">
-          CHILE
-        </button>
-        <button class="tab text-white  px-4 sm:px-6 py-2 text-sm sm:text-lg">
-          COLOMBIA
-        </button>
-        <button class="tab text-white  px-4 sm:px-6 py-2 text-sm sm:text-lg">
-          ESPAÑA
-        </button>
-        <button class="tab text-white  px-4 sm:px-6 py-2 text-sm sm:text-lg">
-          ECUADOR
-        </button>
-        <button class="tab text-white  px-4 sm:px-6 py-2 text-sm sm:text-lg ">
-          MEXICO
-        </button>
-      </div>
-    </div>
-    
+  <div id="viajes" class="px-8 py-20 space-y-10 md:px-10 xl:px-40 2xl:px-0">
+  <!-- Title -->
+  <div id="title" class="text-center md:pt-2 px-4 sm:px-12 md:px-32 lg:px-64 lg:pb-2">
+    <h1 class="text-white font-bold text-3xl sm:text-4xl md:text-4xl lg:text-4xl">
+      Destinos Inolvidables
+    </h1>
+  </div>
 
-  
-      <!-- Tab Content -->
-      <div class="mt-10 max-w-6xl mx-auto">
-        <!-- República Dominicana Section -->
-        <div class="tab-content active">
-          <div class="flex flex-col md:flex-row items-center space-y-6 md:space-y-0 md:space-x-8 bg-gray-800 p-6 sm:p-8 rounded-lg">
-            <img src="./img/paises/rd.jpg" alt="RD" class="w-32 h-32 sm:w-48 sm:h-48 object-cover rounded-lg">
-            <div>
-              <h2 class="text-2xl sm:text-3xl font-extrabold text-white mb-4">
-                ¡Gracias, República Dominicana!
-              </h2>
-              <div class="text-white text-base sm:text-lg leading-relaxed space-y-4">
-                <p>
-                  A la <span class="font-bold text-white">tierra de la alegría y el ritmo</span>, gracias por recibirme en una
-                  conferencia que siempre llevaré en mi corazón.
-                </p>
-                <p>
-                  Su <span class="font-bold text-white">energía, entusiasmo y amor</span> por la odontología digital fueron
-                  <span class="italic">inspiradores</span>. Muy bellas playas y bella gente.
-                </p>
-              </div>
-            </div>
+  <div class="max-w-6xl mx-auto py-4 md:py-8 sm:px-8 bg-gray-800 rounded-lg shadow-xl flex flex-col items-center justify-center space-y-4">
+    <!-- Tab Navigation -->
+    <div class="flex flex-wrap justify-center xl:space-x-2 2xl:space-x-7 ">
+      <button class="tab active text-white px-4 sm:px-6 py-2 text-sm md:text-base bg-blue-400 ">
+        RD
+      </button>
+      <button class="tab text-white  px-4 sm:px-6 py-2 text-sm md:text-base">
+        PORTUGAL
+      </button>
+      <button class="tab text-white  px-4 sm:px-6 py-2 text-sm md:text-base">
+        CHILE
+      </button>
+      <button class="tab text-white  px-4 sm:px-6 py-2 text-sm md:text-base">
+        COLOMBIA
+      </button>
+      <button class="tab text-white  px-4 sm:px-6 py-2 text-sm md:text-base">
+        ESPAÑA
+      </button>
+      <button class="tab text-white  px-4 sm:px-6 py-2 text-sm md:text-base">
+        ECUADOR
+      </button>
+      <button class="tab text-white  px-4 sm:px-6 py-2 text-sm md:text-base ">
+        MEXICO
+      </button>
+    </div>
+  </div>
+
+  <!-- Tab Content -->
+  <div class="mt-10 max-w-6xl mx-auto space-y-6">
+    <!-- República Dominicana Section -->
+    <div class="tab-content active">
+      <div class="flex flex-col md:flex-row items-center space-y-6 md:space-y-0 md:space-x-8 bg-gray-800 p-6 sm:p-8 rounded-lg">
+        <img src="./img/paises/rd.jpg" alt="RD" class="w-32 h-32 sm:w-48 sm:h-48 object-cover rounded-lg">
+        <div>
+          <h2 class="text-2xl sm:text-3xl font-extrabold text-white mb-4">
+            ¡Gracias, República Dominicana!
+          </h2>
+          <div class="text-white text-base sm:text-lg leading-relaxed space-y-4">
+            <p>
+              A la <span class="font-bold text-white">tierra de la alegría y el ritmo</span>, gracias por recibirme en una
+              conferencia que siempre llevaré en mi corazón.
+            </p>
+            <p>
+              Su <span class="font-bold text-white">energía, entusiasmo y amor</span> por la odontología digital fueron
+              <span class="italic">inspiradores</span>. Muy bellas playas y bella gente.
+            </p>
+          </div>
+        </div>
           </div>
         </div>
   
@@ -509,7 +511,7 @@
             </div>
           </div>
         </div>
-  
+
         <!-- Chile Section -->
         <div class="tab-content hidden">
           <div class="flex flex-col md:flex-row items-center space-y-6 md:space-y-0 md:space-x-8 bg-gray-800 p-6 sm:p-8 rounded-lg">
@@ -617,10 +619,11 @@
   
   
   <div id="opiniones">
-    <div class=" py-20">
-      <div class="max-w-7xl mx-auto px-4">
-        <h2 class="text-4xl font-bold text-white text-center mb-12">Comentarios de nuestra comunidad</h2>
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+      <div class="max-w-7xl mx-auto px-8 md:px-10 xl:px-40 2xl:px-0 py-20 ">
+        <div>
+          <h2 class="text-4xl font-bold text-white text-center mb-12">Comentarios de nuestra comunidad</h2>
+        </div>
+        <div class="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-3 md:gap-6 2xl:gap-10">
           <!-- Carta 1 -->
           <div class="relative h-full group">
             <span class="absolute top-0 left-0 w-full h-full mt-1 ml-1 bg-gray-400 rounded-lg transition-transform duration-300 group-hover:translate-x-1 group-hover:translate-y-1"></span>
@@ -629,7 +632,7 @@
                 <img src="./img/users/pedro.jpg" alt="User Photo" class="w-12 h-12 rounded-full border-2 border-gray-400">
                 <p class="text-white text-lg ml-4">Pedro Trevp</p>
               </div>
-              <p class="text-white italic text-lg">
+              <p class="text-white md:text-sm 2xl:text-base italic ">
                 "A pesar de ya tener varios cursos y un par de años siendo digital, me animé por el curso de Mau, y la verdad es que te enseña muchos tips y maneras de hacer el flujo que no cualquiera comparte, excelente curso y excelente persona."
               </p>
             </div>
@@ -644,7 +647,7 @@
                 <img src="./img/users/ezequiel.jpg" alt="User Photo" class="w-12 h-12 rounded-full border-2 border-gray-400">
                 <p class="text-white text-lg ml-4">Ezequiel Chelo Taranco </p>
               </div>
-              <p class="text-white italic text-lg">
+              <p class="text-white md:text-sm 2xl:text-base italic ">
                 "Mauricio es una persona de mucho conocimiento, pero yo quiero destacar su costado humano. Siempre de buena manera, agradable, didáctico, tiene empatía con los demás, es generoso, nunca se perturba, ayuda, responde.
                 Es todo lo bueno que debe ser alguien que instruye a otros.
                 Gracias Mauricio por todo lo que me diste en este primer curso.
@@ -661,7 +664,7 @@
                 <img src="./img/users/victoria.jpg" alt="User Photo" class="w-12 h-12 rounded-full border-2 border-gray-400">
                 <p class="text-white text-lg ml-4">Victoria Mora</p>
               </div>
-              <p class="text-white italic text-lg">
+              <p class="text-white md:text-sm 2xl:text-base italic ">
                 "Hola!! Acabo de realizar el curso de morfodesign con Meshmixer, ¡es una pasada!! Gracias Mauricio por tu profesionalidad y sabiduría, por todo lo que compartes pero sobre todo por cómo lo haces, se nota el cariño que le pones. Ya estoy pensando en el siguiente curso! De verdad, muy agradecida y emocionada! Abrazos desde España 😃😃😊"
               </p>
             </div>
@@ -675,7 +678,7 @@
                 <img src="./img/users/jose.jpg" alt="User Photo" class="w-12 h-12 rounded-full border-2 border-gray-400">
                 <p class="text-white text-lg ml-4">José Francisco Velasco Chaves</p>
               </div>
-              <p class="text-white italic text-lg">
+              <p class="text-white md:text-sm 2xl:text-base italic ">
                 "Grandes cursos, prácticos y útiles desde el primer día. Formato muy didáctico y cómodo de realizar adaptándolo a tu disponibilidad. Pensando ya en realizar el siguiente. Además Mauricio derrocha cercanía, implicación y amabilidad. Recomendable al 100%."
               </p>
             </div>
@@ -689,7 +692,7 @@
                 <img src="./img/users/arturoH.jpg" alt="User Photo" class="w-12 h-12 rounded-full border-2 border-gray-400">
                 <p class="text-white text-lg ml-4">Arturo Hernández López</p>
               </div>
-              <p class="text-white italic text-lg">
+              <p class="text-white md:text-sm 2xl:text-base italic ">
                 "MUCHAS GRACIAS POR TODA LA INFORMACIÓN, LOS EJEMPLOS, LOS ARCHIVOS, PERO SOBRE TODO POR HACER UN CURSO TAN AGRADABLE Y FÁCIL DE ENTENDER Mauricio Avendaño ERES UN EXCELENTE MAESTRO. MUCHAS FELICIDADES!!!"
               </p>
             </div>
@@ -703,7 +706,7 @@
                 <img src="./img/users/adrison.jpg" alt="User Photo" class="w-12 h-12 rounded-full border-2 border-gray-400">
                 <p class="text-white text-lg ml-4">Adrison Arias</p>
               </div>
-              <p class="text-white italic text-lg">
+              <p class="text-white md:text-sm 2xl:text-base italic ">
                 "¡Muchas gracias Mauricio por compartir tan valiosa información! Muy completo tu curso de INICIACIÓN EXOCAD. ¡Aprendí demasiados trucos! Me alegró mucho haber tomado esta capacitación contigo ya que soy novato en lo digital y la forma en que desarrollas todos los temas me parece súper práctico de ejecutar. Por tales motivos... ¡Haré otros cursos contigo! 🙏🙏🙏..."
               </p>
             </div>
@@ -713,11 +716,11 @@
     </div>
   </div>
 
-  <div id="protocolos" class="mx-auto px-6 py-16">  
+  <div id="protocolos" class="mx-auto px-20 mb-20 md:px-40 md:py-10 md:mb-20 xl:mb-0 2xl:px-6">  
     <div class="text-center mb-12">
       <h1 class="text-3xl md:text-4xl font-bold">Estás listo para lograr esto y más?</h1>
     </div>
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 max-w-6xl mx-auto">
+    <div class="grid md:grid-cols-1 lg:grid-cols-3 gap-6 max-w-7xl mx-auto">
       <!-- Panel 1 -->
       <div class="relative group bg-gray-200 rounded-lg overflow-hidden shadow-lg border border-gray-800">
         <img src="./img/protocolos/protocolo1.png" alt="bio1" class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105">
@@ -736,8 +739,8 @@
   
 
 
-  <div class="container mx-auto py-12 px-32">
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+  <div class="container pb-16 px-12 mx-auto md:px-10 xl:px-40 2xl:px-32 ">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 ">
       
       <a href="https://www.youtube.com/watch?v=FURzzapnbLo" target="_blank" rel="noopener noreferrer" class="bg-gray-800 p-6 rounded-2xl shadow-lg group block transform transition duration-300 hover:scale-105 hover:shadow-2xl">
         <div class="flex justify-center mb-4">
@@ -849,7 +852,7 @@
 
 
 
-  <div class="relative max-w-5xl mx-auto text-center px-4 sm:px-6 lg:px-8 mt-56" id="podcast">
+  <div class="relative max-w-5xl mx-auto text-center px-4 md:px-10 lg:px-8 mt-56 mb-32" id="podcast">
   
     <div class="absolute inset-0 flex justify-center items-center mb-44">
       <div class="w-[400px] h-[400px] rounded-full border-[2px] border-gray-600 animate-ping-slow -z-10"></div>
@@ -891,14 +894,14 @@
   </div>
 
 
-  <div class=" py-8 mb-28 mt-36">
+  <div class=" py-8 mb-28 xl:mt-32 2xl:mt-36">
     <div class="py-6">
-      <h2 class="text-white text-4xl font-bold text-center mb-6">Dale un vistazo a nuestro canal!</h2>
+      <h2 class="text-white text-4xl font-bold text-center md:mb-6">Dale un vistazo a <br class="block md:hidden"> nuestro canal!</h2>
     </div>
   
     <!-- Grid centrado con más separación horizontal -->
-    <div class="flex justify-center mt-8">
-      <div class="grid grid-cols-1 sm:grid-cols-2 gap-y-4 gap-x-10 px-4 justify-items-center">
+    <div class="flex justify-center md:mt-8">
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-y-4 gap-x-2 px-4 justify-items-center">
         <!-- Video 1 -->
         <div class="flex justify-center lg:w-96 w-full mx-auto ">
           <iframe 
